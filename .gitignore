@@ -1,0 +1,47 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Raw / local market data
+data/raw/*
+data/snapshots/*
+data/processed/*
+
+# Generated weekly outputs
+outputs/*
+
+# Keep documentation placeholders
+!data/README.md
+!outputs/README.md
+
+# Large data
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.zip
+
+# Logs/temp
+*.log
+*.tmp

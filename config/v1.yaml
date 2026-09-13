@@ -1,0 +1,42 @@
+version: 1
+name: v1_baseline
+cadence: weekly
+
+scope:
+  equities: true
+  etfs: false
+  news: false
+  geopolitics: false
+  themes: false
+  machine_learning: false
+
+dimensions:
+  fundamentals:
+    weight: 0.30
+
+  growth:
+    weight: 0.20
+
+  valuation:
+    weight: 0.15
+
+  market:
+    weight: 0.20
+
+  risk:
+    weight: 0.15
+
+opportunity:
+  state_weight: 0.80
+  trajectory_weight: 0.20
+
+portfolio:
+  target_holdings: 12
+  min_holdings: 10
+  min_sectors: 5
+  max_stock_weight: 0.10
+  max_sector_weight: 0.30
+
+data_quality:
+  minimum_feature_coverage: 0.60
+  neutral_score: 50.0
