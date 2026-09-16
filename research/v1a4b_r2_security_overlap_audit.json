@@ -1,0 +1,108 @@
+{
+  "source": "research\\v1a4b_r1_equity_market_family_composition_audit.json",
+  "interpretation": {
+    "all_equities_is_authoritative_superset": false,
+    "all_equities_role": "auxiliary aggregate / residual venue discovery",
+    "primary_family_role": "explicit market-family taxonomy"
+  },
+  "counts": {
+    "primary_raw_lines": 2829,
+    "all_equities_raw_lines": 3841,
+    "all_equities_only_lines": 1014,
+    "primary_only_lines": 2,
+    "primary_raw_securities": 2796,
+    "all_equities_raw_securities": 2797,
+    "genuinely_new_raw_securities": 3,
+    "expanded_raw_security_union": 2799,
+    "primary_common_securities": 2679,
+    "genuinely_new_common_securities": 3,
+    "expanded_common_security_union": 2682
+  },
+  "auxiliary_mic_audit": {
+    "ETLX": {
+      "label": "EuroTLX",
+      "line_count": 418,
+      "security_count": 418,
+      "securities_already_in_primary": 415,
+      "new_security_count": 3,
+      "new_security_ids": [
+        "DE0007664005",
+        "DE000A0S8488",
+        "JE00B4T3BW64"
+      ]
+    },
+    "MTAH": {
+      "label": "Trading After Hours",
+      "line_count": 594,
+      "security_count": 594,
+      "securities_already_in_primary": 594,
+      "new_security_count": 0,
+      "new_security_ids": []
+    },
+    "XPMC": {
+      "label": "Euronext Paris Multi-Currency Trading",
+      "line_count": 2,
+      "security_count": 2,
+      "securities_already_in_primary": 2,
+      "new_security_count": 0,
+      "new_security_ids": []
+    }
+  },
+  "primary_only_ids": [
+    "GB00BPSKS130-XACD",
+    "IE000O0F49R3-XACD"
+  ],
+  "primary_only_mics": [
+    "XACD"
+  ],
+  "all_equities_endpoint_mics": [
+    "ALXB",
+    "ALXL",
+    "ALXP",
+    "BGEM",
+    "ENXB",
+    "ENXL",
+    "ETLX",
+    "EXGM",
+    "MERK",
+    "MIVX",
+    "MLXB",
+    "MTAA",
+    "MTAH",
+    "TNLA",
+    "TNLB",
+    "XAMC",
+    "XAMS",
+    "XATL",
+    "XBRU",
+    "XESM",
+    "XLDN",
+    "XLIS",
+    "XMLI",
+    "XMSM",
+    "XOAS",
+    "XOSL",
+    "XPAR",
+    "XPMC"
+  ],
+  "genuinely_new_raw_security_ids": [
+    "DE0007664005",
+    "DE000A0S8488",
+    "JE00B4T3BW64"
+  ],
+  "genuinely_new_common_security_ids": [
+    "DE0007664005",
+    "DE000A0S8488",
+    "JE00B4T3BW64"
+  ],
+  "hard_gates": {
+    "primary_families_line_disjoint": true,
+    "all_only_mics_are_auxiliary": true,
+    "all_only_identity_conflicts_zero": true,
+    "common_all_only_identity_conflicts_zero": true,
+    "primary_only_omission_explained_by_missing_mic": true,
+    "primary_only_mic_is_xacd": true,
+    "primary_only_count_is_two": true,
+    "primary_common_only_count_is_two": true
+  }
+}

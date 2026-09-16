@@ -1,0 +1,4 @@
+trading_line_id	display_name	parent_status	repair_status	available_sessions	as_of_date	has_6m	has_drawdown_252d	note
+IT0005481855-MTAA	MET.EXTRA GROUP	FETCH_FAIL	PASS	1071	2026-09-14	True	True	Nullable ancillary source fields accepted; close remained mandatory.
+IT0005730095-MTAA	EPH INVEST	FETCH_FAIL	PASS	1241	2026-09-14	True	True	Nullable ancillary source fields accepted; close remained mandatory.
+BMG455841020-XAMS	HAL TRUST	FEATURE_FAIL	NO_HISTORY	0		False	False	Official Euronext endpoint returned HTTP 200 with zero historical rows.

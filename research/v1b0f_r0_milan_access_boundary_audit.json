@@ -1,0 +1,40 @@
+{
+  "isin": "IT0000060886",
+  "canonical_mic": "MTAA",
+  "provider_mic": "XMIL",
+  "cookie_values_persisted": false,
+  "results": {
+    "a_bare_httpx": {
+      "status": 401,
+      "content_type": null,
+      "body_bytes": 0
+    },
+    "b_httpx_page_bootstrap": {
+      "status": 401,
+      "content_type": null,
+      "body_bytes": 0,
+      "page_status": 200,
+      "cookie_names": [
+        "incap_ses_4559_3233897",
+        "visid_incap_3233897"
+      ]
+    },
+    "c_httpx_with_chrome_cookies": {
+      "status": 401,
+      "content_type": null,
+      "body_bytes": 0,
+      "chrome_cookie_names": [
+        "___utmvc",
+        "incap_ses_1311_3233897",
+        "incap_ses_4559_3233897",
+        "visid_incap_3233897"
+      ]
+    },
+    "d_browser_fetch": {
+      "status": 401,
+      "content_type": null,
+      "body_bytes": 0
+    }
+  },
+  "access_boundary": "UNRESOLVED"
+}

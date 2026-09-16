@@ -1,0 +1,198 @@
+{
+  "snapshot": "2026-09-13",
+  "trading_lines_path": "data\\snapshots\\2026-09-13\\canonical\\trading_lines.parquet",
+  "classification_path": "data\\snapshots\\2026-09-13\\canonical\\instrument_classification.parquet",
+  "trading_line_rows": 1011,
+  "classification_rows": 1011,
+  "trading_line_columns": {
+    "as_of_date": "object",
+    "trading_line_id": "str",
+    "security_id": "str",
+    "ticker": "str",
+    "display_name": "str",
+    "reference_mic": "str",
+    "reference_market": "str",
+    "product_url": "str",
+    "active": "bool",
+    "first_seen": "object",
+    "last_seen": "object",
+    "source": "str",
+    "source_url": "str"
+  },
+  "classification_columns": {
+    "snapshot_date": "object",
+    "trading_line_id": "str",
+    "security_id": "str",
+    "ticker": "str",
+    "reference_mic": "str",
+    "classification_observed_date": "object",
+    "is_common_stock": "bool",
+    "official_issue_type": "str",
+    "official_issue_type_code": "str",
+    "classification_source": "str",
+    "classification_source_url": "str",
+    "classification_method": "str",
+    "classification_filter_field": "str",
+    "classification_filter_value": "str",
+    "point_in_time_note": "str"
+  },
+  "classification_low_cardinality": {
+    "snapshot_date": {
+      "dtype": "object",
+      "unique_count": 1,
+      "values": [
+        {
+          "value": "2026-09-13",
+          "count": 1011
+        }
+      ]
+    },
+    "reference_mic": {
+      "dtype": "str",
+      "unique_count": 7,
+      "values": [
+        {
+          "value": "XPAR",
+          "count": 329
+        },
+        {
+          "value": "MTAA",
+          "count": 203
+        },
+        {
+          "value": "XOSL",
+          "count": 198
+        },
+        {
+          "value": "XAMS",
+          "count": 125
+        },
+        {
+          "value": "XBRU",
+          "count": 107
+        },
+        {
+          "value": "XLIS",
+          "count": 33
+        },
+        {
+          "value": "XMSM",
+          "count": 16
+        }
+      ]
+    },
+    "classification_observed_date": {
+      "dtype": "object",
+      "unique_count": 1,
+      "values": [
+        {
+          "value": "2026-09-14",
+          "count": 1011
+        }
+      ]
+    },
+    "is_common_stock": {
+      "dtype": "bool",
+      "unique_count": 2,
+      "values": [
+        {
+          "value": true,
+          "count": 971
+        },
+        {
+          "value": false,
+          "count": 40
+        }
+      ]
+    },
+    "official_issue_type": {
+      "dtype": "str",
+      "unique_count": 1,
+      "values": [
+        {
+          "value": "Common Stock",
+          "count": 971
+        }
+      ]
+    },
+    "official_issue_type_code": {
+      "dtype": "str",
+      "unique_count": 1,
+      "values": [
+        {
+          "value": "101",
+          "count": 971
+        }
+      ]
+    },
+    "classification_source": {
+      "dtype": "str",
+      "unique_count": 1,
+      "values": [
+        {
+          "value": "Euronext Live",
+          "count": 1011
+        }
+      ]
+    },
+    "classification_source_url": {
+      "dtype": "str",
+      "unique_count": 1,
+      "values": [
+        {
+          "value": "https://live.euronext.com/en/products/equities/regulated/list",
+          "count": 1011
+        }
+      ]
+    },
+    "classification_method": {
+      "dtype": "str",
+      "unique_count": 1,
+      "values": [
+        {
+          "value": "official_directory_filter",
+          "count": 1011
+        }
+      ]
+    },
+    "classification_filter_field": {
+      "dtype": "str",
+      "unique_count": 1,
+      "values": [
+        {
+          "value": "args[issueType]",
+          "count": 1011
+        }
+      ]
+    },
+    "classification_filter_value": {
+      "dtype": "str",
+      "unique_count": 1,
+      "values": [
+        {
+          "value": "101",
+          "count": 1011
+        }
+      ]
+    },
+    "point_in_time_note": {
+      "dtype": "str",
+      "unique_count": 1,
+      "values": [
+        {
+          "value": "Classification observed after snapshot; live raw trading-line identity set exactly matched frozen snapshot before binding.",
+          "count": 1011
+        }
+      ]
+    }
+  },
+  "hard_gates": {
+    "trading_lines_1011": true,
+    "classification_1011": true,
+    "trading_line_id_in_trading": true,
+    "trading_line_id_in_classification": true,
+    "trading_ids_unique": true,
+    "classification_ids_unique": true,
+    "exact_line_set_match": true
+  }
+}

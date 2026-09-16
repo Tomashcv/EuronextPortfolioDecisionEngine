@@ -1,0 +1,22 @@
+{
+  "snapshot": "C:\\Users\\Utilizador\\Desktop\\Tomás\\EuronextPortfolioDecisionEngine\\data\\snapshots\\2026-09-13",
+  "official_filter": {
+    "label": "Common Stock",
+    "field": "args[issueType]",
+    "value": "101"
+  },
+  "counts": {
+    "trading_lines": 1011,
+    "common_stock_lines": 971,
+    "non_common_stock_lines": 40,
+    "securities": 1005,
+    "mixed_securities": 0
+  },
+  "hard_gates": {
+    "live_raw_exactly_matches_snapshot": true,
+    "common_is_raw_subset": true,
+    "classification_exhaustive": true,
+    "common_line_count_matches": true,
+    "no_mixed_security_classification": true
+  }
+}

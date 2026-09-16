@@ -1,0 +1,175 @@
+{
+  "trading_line_id": "IT0003856405-MTAA",
+  "chart_service_mic": "XMIL",
+  "url": "https://grafici.borsaitaliana.it/summary-chart/IT0003856405-MTAA?lang=it",
+  "ranges": {
+    "1M": {
+      "click": {
+        "className": "grow px-3 py-1 border-b-2 bg-white border-slate-300 hover:bg-gray-200",
+        "found": true,
+        "tag": "BUTTON",
+        "text": "1M"
+      },
+      "requests": [
+        {
+          "request_id": "12716.14",
+          "resource_type": "Fetch",
+          "method": "GET",
+          "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/history/period?period=1M&adjustment=true&add-last-price=true",
+          "post_data": null,
+          "response": {
+            "status": 200,
+            "mime_type": "application/json",
+            "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/history/period?period=1M&adjustment=true&add-last-price=true"
+          },
+          "body": {
+            "available": true,
+            "base64_encoded": false,
+            "length": 4733,
+            "preview": "{\"transco\":{\"code\":\"IT0003856405\",\"codification\":\"ISIN\",\"exchCode\":\"XMIL\"},\"history\":{\"historyDt\":[{\"dt\":\"20260817\",\"openPx\":59.9,\"closePx\":59.71,\"highPx\":60.78,\"lowPx\":59.52,\"lastPx\":59.71,\"qty\":1399460.0,\"volNbTrade\":8093.0,\"volCap\":8.405592111E7,\"setPx\":60.06311,\"tickSizeRule\":\"ERX_25\",\"vwap\":60.063111},{\"dt\":\"20260818\",\"openPx\":59.65,\"closePx\":59.16,\"highPx\":59.96,\"lowPx\":58.78,\"lastPx\":59.16,\"qty\":1372200.0,\"volNbTrade\":7581.0,\"volCap\":8.131039434E7,\"setPx\":59.255497,\"tickSizeRule\":\"ERX_25\",\"vwap\":59.255498},{\"dt\":\"20260819\",\"openPx\":59.44,\"closePx\":58.47,\"highPx\":59.96,\"lowPx\":58.34,\"lastPx\":58.47,\"qty\":1127378.0,\"volNbTrade\":7155.0,\"volCap\":6.642387978E7,\"setPx\":58.919191,\"tickSizeRule\":\"ERX_25\",\"vwap\":58.918907},{\"dt\":\"20260820\",\"openPx\":58.56,\"closePx\":57.33,\"highPx\":58.58,\"lowPx\":57.3,\"lastPx\":57.33,\"qty\":1255196.0,\"volNbTrade\":7562.0,\"volCap\":7.24309395E7,\"setPx\":57.704883,\"tickSizeRule\":\"ERX_25\",\"vwap\":57.704884},{\"dt\":\"20260821\",\"openPx\":57.1,\"closePx\":56.25,\"highPx\":57.15,\"lowPx\":56.04,\"lastPx\":56.25,\"qty\":1447884.0,\"volNbTrade\":7374.0,\"volCap\":8.18101389E7,\"setPx\":56.503247,\"tickSizeRule\":\"ERX_25\",\"vwap\":56.503241},{\"dt\":\"20260824\",\"openPx\":56.41,\"closePx\":54.77,\"highPx\":56.49,\"lowPx\":54.73,\"lastPx\":54.77,\"qty\":1521817.0,\"volNbTrade\":9227.0,\"volCap\":8.40905008E7,\"setPx\":55.25713,\"tickSizeRule\":\"ERX_25\",\"vwap\":55.256644},{\"dt\":\"20260825\",\"openPx\":55.3,\"closePx\":54.41,\"highPx\":55.51,\"lowPx\":54.22,\"lastPx\":54.41,\"qty\":1431262.0,\"volNbTrade\":8533.0,\"volCap\":7.847886627E7,\"setPx\":54.831937,\"tickSizeRule\":\"ERX_25\",\"vwap\":54.831936},{\"dt\":\"20260826\",\"openPx\":54.22,\"closePx\":54.12,\"highPx\":54.77,\"lowPx\":53.61,\"lastPx\":54.12,\"qty\":1640135.0,\"volNbTrade\":8605.0,\"volCap\":8.887757774E7,\"setPx\":54.189184,\"tickSizeRule\":\"ERX_25\",\"vwap\":54.189184},{\"dt\":\"20260827\",\"openPx\":54.38,\"closePx\":55.05,\"highPx\":55.68,\"lowPx\":53.79,\"lastPx\":55.05,\"qty\":2078563.0,\"volNbTrade\":10834.0,\"volCap\":1.1412909992E8,\"setPx\":54.907693,\"tickSizeRule\":\"ERX_25\",\"vwap\":54.907693},{\"dt\":\"20260828\",\"openPx\":55.58,\"closePx\":52.87,\"highPx\":55.58,\"lowPx\":52.87,\"lastPx\":52.87,\"qty\":2549622.0,\"volNbTrade\":13587.0,\"volCap\":1.364068861E8,\"setPx\":53.500918,\"tickSizeRule\":\"ERX_25\",\"vwap\":53.500827},{\"dt\":\"20260831\",\"openPx\":52.96,\"closePx\":51.72,\"highPx\":53.08,\"lowPx\":51.61,\"lastPx\":51.72,\"qty\":2263258.0,\"volNbTrade\":10429.0,\"volCap\":1.1761134091E8,\"setPx\":51.965509,\"tickSizeRule\":\"ERX_25\",\"vwap\":51.965503},{\"dt\":\"20260901\",\"openPx\":51.82,\"closePx\":51.05,\"highPx\":52.01,\"lowPx\":50.66,\"lastPx\":51.05,\"qty\":1901563.0,\"volNbTrade\":12153.0,\"volCap\":9.721044775E7,\"setPx\":51.121534,\"tickSizeRule\":\"ERX_25\",\"vwap\":51.12134},{\"dt\":\"20260902\",\"openPx\":51.05,\"closePx\":51.39,\"highPx\":51.9,\"lowPx\":50.61,\"lastPx\":51.39,\"qty\":1706868.0,\"volNbTrade\":9562.0,\"volCap\":8.768221227E7,\"setPx\":51.370235,\"tickSizeRule\":\"ERX_25\",\"vwap\":51.370236},{\"dt\":\"20260903\",\"openPx\":51.21,\"closePx\":50.64,\"highPx\":51.39,\"lowPx\":49.85,\"lastPx\":50.64,\"qty\":2115574.0,\"volNbTrade\":11383.0,\"volCap\":1.0674539987E8,\"setPx\":50"
+          }
+        }
+      ]
+    },
+    "3M": {
+      "click": {
+        "className": "grow px-3 py-1 border-b-2 bg-white border-slate-300 hover:bg-gray-200",
+        "found": true,
+        "tag": "BUTTON",
+        "text": "3M"
+      },
+      "requests": [
+        {
+          "request_id": "12716.15",
+          "resource_type": "Fetch",
+          "method": "GET",
+          "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/history/period?period=3M&adjustment=true&add-last-price=true",
+          "post_data": null,
+          "response": {
+            "status": 200,
+            "mime_type": "application/json",
+            "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/history/period?period=3M&adjustment=true&add-last-price=true"
+          },
+          "body": {
+            "available": true,
+            "base64_encoded": false,
+            "length": 14236,
+            "preview": "{\"transco\":{\"code\":\"IT0003856405\",\"codification\":\"ISIN\",\"exchCode\":\"XMIL\"},\"history\":{\"historyDt\":[{\"dt\":\"20260615\",\"openPx\":53.12,\"closePx\":52.0,\"highPx\":53.97,\"lowPx\":52.0,\"lastPx\":52.0,\"qty\":1890403.0,\"volNbTrade\":9561.0,\"volCap\":9.96456777E7,\"setPx\":52.711813,\"tickSizeRule\":\"ERX_25\",\"vwap\":52.711341},{\"dt\":\"20260616\",\"openPx\":52.4,\"closePx\":51.7,\"highPx\":53.31,\"lowPx\":51.46,\"lastPx\":51.7,\"qty\":1861003.0,\"volNbTrade\":8915.0,\"volCap\":9.699858186E7,\"setPx\":52.121668,\"tickSizeRule\":\"ERX_25\",\"vwap\":52.121669},{\"dt\":\"20260617\",\"openPx\":52.0,\"closePx\":52.31,\"highPx\":52.62,\"lowPx\":51.71,\"lastPx\":52.31,\"qty\":1680687.0,\"volNbTrade\":6808.0,\"volCap\":8.779235102E7,\"setPx\":52.235631,\"tickSizeRule\":\"ERX_25\",\"vwap\":52.235991},{\"dt\":\"20260618\",\"openPx\":52.7,\"closePx\":51.8,\"highPx\":52.8,\"lowPx\":51.0,\"lastPx\":51.8,\"qty\":2410764.0,\"volNbTrade\":11221.0,\"volCap\":1.2507573498E8,\"setPx\":51.88243,\"tickSizeRule\":\"ERX_25\",\"vwap\":51.882198},{\"dt\":\"20260619\",\"openPx\":52.18,\"closePx\":52.66,\"highPx\":53.55,\"lowPx\":52.15,\"lastPx\":52.66,\"qty\":3992038.0,\"volNbTrade\":9120.0,\"volCap\":2.105270203E8,\"setPx\":52.736727,\"tickSizeRule\":\"ERX_25\",\"vwap\":52.736728},{\"dt\":\"20260622\",\"openPx\":51.66,\"closePx\":50.08,\"highPx\":52.43,\"lowPx\":49.11,\"lastPx\":50.08,\"qty\":3934019.0,\"volNbTrade\":20499.0,\"volCap\":1.9781150439E8,\"setPx\":50.282478,\"tickSizeRule\":\"ERX_25\",\"vwap\":50.282295},{\"dt\":\"20260623\",\"openPx\":50.0,\"closePx\":50.43,\"highPx\":50.89,\"lowPx\":49.835,\"lastPx\":50.43,\"qty\":1916067.0,\"volNbTrade\":8470.0,\"volCap\":9.662280176E7,\"setPx\":50.427663,\"tickSizeRule\":\"ERX_25\",\"vwap\":50.427674},{\"dt\":\"20260624\",\"openPx\":50.06,\"closePx\":48.03,\"highPx\":50.17,\"lowPx\":47.615,\"lastPx\":48.03,\"qty\":4519504.0,\"volNbTrade\":24705.0,\"volCap\":2.1768796536E8,\"setPx\":48.166337,\"tickSizeRule\":\"ERX_25\",\"vwap\":48.16634},{\"dt\":\"20260625\",\"openPx\":48.1,\"closePx\":46.125,\"highPx\":48.2,\"lowPx\":46.03,\"lastPx\":46.125,\"qty\":4527193.0,\"volNbTrade\":23263.0,\"volCap\":2.1077803949E8,\"setPx\":46.558425,\"tickSizeRule\":\"ERX_25\",\"vwap\":46.558218},{\"dt\":\"20260626\",\"openPx\":45.78,\"closePx\":46.255,\"highPx\":46.255,\"lowPx\":44.25,\"lastPx\":46.255,\"qty\":3570202.0,\"volNbTrade\":20218.0,\"volCap\":1.619641577E8,\"setPx\":45.371904,\"tickSizeRule\":\"ERX_25\",\"vwap\":45.372157},{\"dt\":\"20260629\",\"openPx\":46.42,\"closePx\":46.06,\"highPx\":46.535,\"lowPx\":45.7,\"lastPx\":46.06,\"qty\":2369602.0,\"volNbTrade\":10717.0,\"volCap\":1.0920716027E8,\"setPx\":46.086705,\"tickSizeRule\":\"ERX_25\",\"vwap\":46.08671},{\"dt\":\"20260630\",\"openPx\":46.11,\"closePx\":46.925,\"highPx\":47.345,\"lowPx\":45.6,\"lastPx\":46.925,\"qty\":2779215.0,\"volNbTrade\":10114.0,\"volCap\":1.2991088355E8,\"setPx\":46.743729,\"tickSizeRule\":\"ERX_25\",\"vwap\":46.743733},{\"dt\":\"20260701\",\"openPx\":47.28,\"closePx\":48.76,\"highPx\":49.225,\"lowPx\":47.01,\"lastPx\":48.76,\"qty\":3102467.0,\"volNbTrade\":13569.0,\"volCap\":1.5061270758E8,\"setPx\":48.545948,\"tickSizeRule\":\"ERX_25\",\"vwap\":48.546111},{\"dt\":\"20260702\",\"openPx\":49.0,\"closePx\":51.94,\"highPx\":52.34,\"lowPx\":48.95,\"lastPx\":51.94,\"qty\":4204064.0,\"volNbTrade\":18865.0,\"volCap\":2.15549255E8,\"s"
+          }
+        }
+      ]
+    },
+    "6M": {
+      "click": {
+        "className": "grow px-3 py-1 border-b-2 bg-white border-slate-300 hover:bg-gray-200",
+        "found": true,
+        "tag": "BUTTON",
+        "text": "6M"
+      },
+      "requests": [
+        {
+          "request_id": "12716.16",
+          "resource_type": "Fetch",
+          "method": "GET",
+          "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/history/period?period=6M&adjustment=true&add-last-price=true",
+          "post_data": null,
+          "response": {
+            "status": 200,
+            "mime_type": "application/json",
+            "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/history/period?period=6M&adjustment=true&add-last-price=true"
+          },
+          "body": {
+            "available": true,
+            "base64_encoded": false,
+            "length": 27310,
+            "preview": "{\"transco\":{\"code\":\"IT0003856405\",\"codification\":\"ISIN\",\"exchCode\":\"XMIL\"},\"history\":{\"historyDt\":[{\"dt\":\"20260316\",\"openPx\":64.3,\"closePx\":63.8,\"highPx\":64.98,\"lowPx\":63.2,\"lastPx\":63.8,\"qty\":1938377.0,\"volNbTrade\":9777.0,\"volCap\":1.2377416933E8,\"setPx\":63.854544,\"tickSizeRule\":\"ERX_24\",\"vwap\":63.854539},{\"dt\":\"20260317\",\"openPx\":63.2,\"closePx\":63.32,\"highPx\":63.7,\"lowPx\":62.38,\"lastPx\":63.32,\"qty\":1650919.0,\"volNbTrade\":7545.0,\"volCap\":1.0404875194E8,\"setPx\":63.024746,\"tickSizeRule\":\"ERX_24\",\"vwap\":63.024747},{\"dt\":\"20260318\",\"openPx\":63.32,\"closePx\":64.26,\"highPx\":64.9,\"lowPx\":62.98,\"lastPx\":64.26,\"qty\":2071965.0,\"volNbTrade\":7830.0,\"volCap\":1.3317129775E8,\"setPx\":64.272965,\"tickSizeRule\":\"ERX_24\",\"vwap\":64.272948},{\"dt\":\"20260319\",\"openPx\":64.4,\"closePx\":63.2,\"highPx\":64.84,\"lowPx\":62.26,\"lastPx\":63.2,\"qty\":1997373.0,\"volNbTrade\":10723.0,\"volCap\":1.2623687411E8,\"setPx\":63.201465,\"tickSizeRule\":\"ERX_24\",\"vwap\":63.201452},{\"dt\":\"20260320\",\"openPx\":62.92,\"closePx\":60.6,\"highPx\":63.86,\"lowPx\":60.6,\"lastPx\":60.6,\"qty\":6184214.0,\"volNbTrade\":10257.0,\"volCap\":3.7776840616E8,\"setPx\":61.086367,\"tickSizeRule\":\"ERX_24\",\"vwap\":61.085921},{\"dt\":\"20260323\",\"openPx\":59.1,\"closePx\":59.2,\"highPx\":60.48,\"lowPx\":57.74,\"lastPx\":59.2,\"qty\":3029917.0,\"volNbTrade\":14976.0,\"volCap\":1.7930481318E8,\"setPx\":59.178126,\"tickSizeRule\":\"ERX_24\",\"vwap\":59.178127},{\"dt\":\"20260324\",\"openPx\":58.86,\"closePx\":57.98,\"highPx\":58.98,\"lowPx\":56.42,\"lastPx\":57.98,\"qty\":2282527.0,\"volNbTrade\":10705.0,\"volCap\":1.3114058434E8,\"setPx\":57.452685,\"tickSizeRule\":\"ERX_24\",\"vwap\":57.454122},{\"dt\":\"20260325\",\"openPx\":58.8,\"closePx\":59.02,\"highPx\":59.08,\"lowPx\":58.04,\"lastPx\":59.02,\"qty\":1582479.0,\"volNbTrade\":6837.0,\"volCap\":9.293195411E7,\"setPx\":58.725524,\"tickSizeRule\":\"ERX_24\",\"vwap\":58.725553},{\"dt\":\"20260326\",\"openPx\":59.72,\"closePx\":58.58,\"highPx\":59.72,\"lowPx\":57.72,\"lastPx\":58.58,\"qty\":2163509.0,\"volNbTrade\":8358.0,\"volCap\":1.2673397425E8,\"setPx\":58.577973,\"tickSizeRule\":\"ERX_24\",\"vwap\":58.577974},{\"dt\":\"20260327\",\"openPx\":58.28,\"closePx\":56.62,\"highPx\":58.62,\"lowPx\":55.88,\"lastPx\":56.62,\"qty\":1838816.0,\"volNbTrade\":7019.0,\"volCap\":1.045504157E8,\"setPx\":56.858623,\"tickSizeRule\":\"ERX_24\",\"vwap\":56.857465},{\"dt\":\"20260330\",\"openPx\":55.28,\"closePx\":55.66,\"highPx\":56.26,\"lowPx\":54.86,\"lastPx\":55.66,\"qty\":2254097.0,\"volNbTrade\":9196.0,\"volCap\":1.2539124261E8,\"setPx\":55.628034,\"tickSizeRule\":\"ERX_24\",\"vwap\":55.628148},{\"dt\":\"20260331\",\"openPx\":54.98,\"closePx\":58.04,\"highPx\":58.04,\"lowPx\":54.5,\"lastPx\":58.04,\"qty\":3893338.0,\"volNbTrade\":11650.0,\"volCap\":2.2240502891E8,\"setPx\":57.115865,\"tickSizeRule\":\"ERX_24\",\"vwap\":57.124511},{\"dt\":\"20260401\",\"openPx\":59.8,\"closePx\":62.64,\"highPx\":63.28,\"lowPx\":59.22,\"lastPx\":62.64,\"qty\":4280042.0,\"volNbTrade\":15400.0,\"volCap\":2.6460756345E8,\"setPx\":61.823185,\"tickSizeRule\":\"ERX_24\",\"vwap\":61.82359},{\"dt\":\"20260402\",\"openPx\":61.94,\"closePx\":62.26,\"highPx\":62.54,\"lowPx\":61.12,\"lastPx\":62.26,\"qty\":1783269.0,\"volNbTrade\":6593.0,\"volCap\":1.103366173E8,\"setPx\":61"
+          }
+        }
+      ]
+    },
+    "1Y": {
+      "click": {
+        "className": "grow px-3 py-1 border-b-2 bg-white border-slate-300 hover:bg-gray-200",
+        "found": true,
+        "tag": "BUTTON",
+        "text": "1Y"
+      },
+      "requests": [
+        {
+          "request_id": "12716.17",
+          "resource_type": "Fetch",
+          "method": "GET",
+          "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/history/period?period=1Y&adjustment=true&add-last-price=true",
+          "post_data": null,
+          "response": {
+            "status": 200,
+            "mime_type": "application/json",
+            "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/history/period?period=1Y&adjustment=true&add-last-price=true"
+          },
+          "body": {
+            "available": true,
+            "base64_encoded": false,
+            "length": 53648,
+            "preview": "{\"transco\":{\"code\":\"IT0003856405\",\"codification\":\"ISIN\",\"exchCode\":\"XMIL\"},\"history\":{\"historyDt\":[{\"dt\":\"20250915\",\"openPx\":50.56,\"closePx\":52.36,\"highPx\":52.4,\"lowPx\":50.4,\"lastPx\":52.36,\"qty\":4507251.0,\"volNbTrade\":15431.0,\"volCap\":2.3337979514E8,\"setPx\":51.778679,\"tickSizeRule\":\"ERX_24\",\"vwap\":51.778744},{\"dt\":\"20250916\",\"openPx\":52.46,\"closePx\":50.78,\"highPx\":52.92,\"lowPx\":50.7,\"lastPx\":50.78,\"qty\":3715165.0,\"volNbTrade\":15016.0,\"volCap\":1.9127744368E8,\"setPx\":51.490671,\"tickSizeRule\":\"ERX_24\",\"vwap\":51.485585},{\"dt\":\"20250917\",\"openPx\":50.8,\"closePx\":49.5,\"highPx\":51.46,\"lowPx\":49.29,\"lastPx\":49.5,\"qty\":2440590.0,\"volNbTrade\":10083.0,\"volCap\":1.2264812391E8,\"setPx\":50.254306,\"tickSizeRule\":\"ERX_24\",\"vwap\":50.253473},{\"dt\":\"20250918\",\"openPx\":50.14,\"closePx\":49.9,\"highPx\":50.56,\"lowPx\":49.29,\"lastPx\":49.9,\"qty\":2007367.0,\"volNbTrade\":8659.0,\"volCap\":1.0024134046E8,\"setPx\":49.936753,\"tickSizeRule\":\"ERX_24\",\"vwap\":49.936728},{\"dt\":\"20250919\",\"openPx\":50.04,\"closePx\":49.84,\"highPx\":50.32,\"lowPx\":49.32,\"lastPx\":49.84,\"qty\":4582107.0,\"volNbTrade\":8865.0,\"volCap\":2.2841943758E8,\"setPx\":49.850306,\"tickSizeRule\":\"ERX_24\",\"vwap\":49.850306},{\"dt\":\"20250922\",\"openPx\":50.26,\"closePx\":51.72,\"highPx\":51.76,\"lowPx\":50.2,\"lastPx\":51.72,\"qty\":3168650.0,\"volNbTrade\":12462.0,\"volCap\":1.628865535E8,\"setPx\":51.405583,\"tickSizeRule\":\"ERX_24\",\"vwap\":51.405663},{\"dt\":\"20250923\",\"openPx\":51.96,\"closePx\":50.6,\"highPx\":52.06,\"lowPx\":50.46,\"lastPx\":50.6,\"qty\":2386274.0,\"volNbTrade\":8561.0,\"volCap\":1.2125558451E8,\"setPx\":50.813792,\"tickSizeRule\":\"ERX_24\",\"vwap\":50.813773},{\"dt\":\"20250924\",\"openPx\":51.42,\"closePx\":52.9,\"highPx\":52.9,\"lowPx\":51.34,\"lastPx\":52.9,\"qty\":5281288.0,\"volNbTrade\":17098.0,\"volCap\":2.7635371702E8,\"setPx\":52.326143,\"tickSizeRule\":\"ERX_24\",\"vwap\":52.326955},{\"dt\":\"20250925\",\"openPx\":52.5,\"closePx\":52.84,\"highPx\":52.98,\"lowPx\":51.92,\"lastPx\":52.84,\"qty\":2888538.0,\"volNbTrade\":10186.0,\"volCap\":1.5168700138E8,\"setPx\":52.513411,\"tickSizeRule\":\"ERX_24\",\"vwap\":52.513417},{\"dt\":\"20250926\",\"openPx\":52.98,\"closePx\":53.0,\"highPx\":53.74,\"lowPx\":52.38,\"lastPx\":53.0,\"qty\":2732675.0,\"volNbTrade\":10110.0,\"volCap\":1.4488071408E8,\"setPx\":53.017955,\"tickSizeRule\":\"ERX_24\",\"vwap\":53.017909},{\"dt\":\"20250929\",\"openPx\":53.46,\"closePx\":54.1,\"highPx\":54.48,\"lowPx\":52.92,\"lastPx\":54.1,\"qty\":3068151.0,\"volNbTrade\":10968.0,\"volCap\":1.6555058822E8,\"setPx\":53.952883,\"tickSizeRule\":\"ERX_24\",\"vwap\":53.95292},{\"dt\":\"20250930\",\"openPx\":53.92,\"closePx\":54.02,\"highPx\":54.42,\"lowPx\":52.88,\"lastPx\":54.02,\"qty\":2867539.0,\"volNbTrade\":9213.0,\"volCap\":1.5397715708E8,\"setPx\":53.696396,\"tickSizeRule\":\"ERX_24\",\"vwap\":53.696622},{\"dt\":\"20251001\",\"openPx\":54.2,\"closePx\":54.0,\"highPx\":54.2,\"lowPx\":52.1,\"lastPx\":54.0,\"qty\":3304277.0,\"volNbTrade\":10825.0,\"volCap\":1.7634427877E8,\"setPx\":53.356137,\"tickSizeRule\":\"ERX_24\",\"vwap\":53.368491},{\"dt\":\"20251002\",\"openPx\":54.0,\"closePx\":55.66,\"highPx\":55.66,\"lowPx\":53.84,\"lastPx\":55.66,\"qty\":4339333.0,\"volNbTrade\":14407.0,\"volCap\":2.3907909193E8,\"setPx\":55"
+          }
+        }
+      ]
+    },
+    "3Y": {
+      "click": {
+        "className": "grow px-3 py-1 border-b-2 bg-white border-slate-300 hover:bg-gray-200",
+        "found": true,
+        "tag": "BUTTON",
+        "text": "3Y"
+      },
+      "requests": [
+        {
+          "request_id": "12716.18",
+          "resource_type": "Fetch",
+          "method": "GET",
+          "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/history/period?period=3Y&adjustment=true&add-last-price=true",
+          "post_data": null,
+          "response": {
+            "status": 200,
+            "mime_type": "application/json",
+            "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/history/period?period=3Y&adjustment=true&add-last-price=true"
+          },
+          "body": {
+            "available": true,
+            "base64_encoded": false,
+            "length": 160266,
+            "preview": "{\"transco\":{\"code\":\"IT0003856405\",\"codification\":\"ISIN\",\"exchCode\":\"XMIL\"},\"history\":{\"historyDt\":[{\"dt\":\"20230915\",\"openPx\":13.775,\"closePx\":13.98,\"highPx\":13.98,\"lowPx\":13.73,\"lastPx\":13.98,\"qty\":4972100.0,\"volNbTrade\":5539.0,\"volCap\":6.918234879E7,\"setPx\":13.914109,\"tickSizeRule\":\"ERX_24\",\"vwap\":13.91411},{\"dt\":\"20230918\",\"openPx\":14.025,\"closePx\":13.86,\"highPx\":14.025,\"lowPx\":13.73,\"lastPx\":13.86,\"qty\":2428466.0,\"volNbTrade\":4742.0,\"volCap\":3.366331028E7,\"setPx\":13.861962,\"tickSizeRule\":\"ERX_24\",\"vwap\":13.861965},{\"dt\":\"20230919\",\"openPx\":13.865,\"closePx\":14.08,\"highPx\":14.165,\"lowPx\":13.84,\"lastPx\":14.08,\"qty\":2617069.0,\"volNbTrade\":5190.0,\"volCap\":3.676765035E7,\"setPx\":14.049169,\"tickSizeRule\":\"ERX_24\",\"vwap\":14.049171},{\"dt\":\"20230920\",\"openPx\":13.92,\"closePx\":14.03,\"highPx\":14.04,\"lowPx\":13.72,\"lastPx\":14.03,\"qty\":4092775.0,\"volNbTrade\":6693.0,\"volCap\":5.692963349E7,\"setPx\":13.909174,\"tickSizeRule\":\"ERX_24\",\"vwap\":13.909788},{\"dt\":\"20230921\",\"openPx\":13.945,\"closePx\":13.75,\"highPx\":14.01,\"lowPx\":13.71,\"lastPx\":13.75,\"qty\":2344999.0,\"volNbTrade\":4229.0,\"volCap\":3.239507999E7,\"setPx\":13.816345,\"tickSizeRule\":\"ERX_24\",\"vwap\":13.814539},{\"dt\":\"20230922\",\"openPx\":13.72,\"closePx\":13.605,\"highPx\":13.75,\"lowPx\":13.54,\"lastPx\":13.605,\"qty\":2229801.0,\"volNbTrade\":4174.0,\"volCap\":3.041518965E7,\"setPx\":13.640314,\"tickSizeRule\":\"ERX_24\",\"vwap\":13.640316},{\"dt\":\"20230925\",\"openPx\":13.57,\"closePx\":13.625,\"highPx\":13.75,\"lowPx\":13.495,\"lastPx\":13.625,\"qty\":1558790.0,\"volNbTrade\":3803.0,\"volCap\":2.122173082E7,\"setPx\":13.61423,\"tickSizeRule\":\"ERX_24\",\"vwap\":13.614233},{\"dt\":\"20230926\",\"openPx\":13.595,\"closePx\":13.47,\"highPx\":13.625,\"lowPx\":13.29,\"lastPx\":13.47,\"qty\":2454737.0,\"volNbTrade\":5566.0,\"volCap\":3.301368981E7,\"setPx\":13.44897,\"tickSizeRule\":\"ERX_24\",\"vwap\":13.448972},{\"dt\":\"20230927\",\"openPx\":13.51,\"closePx\":13.675,\"highPx\":13.72,\"lowPx\":13.45,\"lastPx\":13.675,\"qty\":1504859.0,\"volNbTrade\":3691.0,\"volCap\":2.047058604E7,\"setPx\":13.602989,\"tickSizeRule\":\"ERX_24\",\"vwap\":13.602993},{\"dt\":\"20230928\",\"openPx\":13.615,\"closePx\":13.77,\"highPx\":13.78,\"lowPx\":13.575,\"lastPx\":13.77,\"qty\":1626635.0,\"volNbTrade\":3531.0,\"volCap\":2.225702281E7,\"setPx\":13.682425,\"tickSizeRule\":\"ERX_24\",\"vwap\":13.682862},{\"dt\":\"20230929\",\"openPx\":13.83,\"closePx\":13.66,\"highPx\":13.865,\"lowPx\":13.59,\"lastPx\":13.66,\"qty\":2059364.0,\"volNbTrade\":3738.0,\"volCap\":2.82412612E7,\"setPx\":13.713582,\"tickSizeRule\":\"ERX_24\",\"vwap\":13.713584},{\"dt\":\"20231002\",\"openPx\":13.665,\"closePx\":13.54,\"highPx\":13.795,\"lowPx\":13.53,\"lastPx\":13.54,\"qty\":1949446.0,\"volNbTrade\":4228.0,\"volCap\":2.656997643E7,\"setPx\":13.629499,\"tickSizeRule\":\"ERX_24\",\"vwap\":13.629501},{\"dt\":\"20231003\",\"openPx\":13.505,\"closePx\":13.48,\"highPx\":13.645,\"lowPx\":13.45,\"lastPx\":13.48,\"qty\":1815477.0,\"volNbTrade\":4399.0,\"volCap\":2.457007133E7,\"setPx\":13.53367,\"tickSizeRule\":\"ERX_24\",\"vwap\":13.533673},{\"dt\":\"20231004\",\"openPx\":13.37,\"closePx\":13.2,\"highPx\":13.395,\"lowPx\":13.14,\"lastPx\":13.2,\"qty\":2932415.0,\"volNbTrade\":8075.0,\"volCap\":3.881"
+          }
+        }
+      ]
+    },
+    "5Y": {
+      "click": {
+        "className": "grow px-3 py-1 border-b-2 bg-white border-slate-300 hover:bg-gray-200",
+        "found": true,
+        "tag": "BUTTON",
+        "text": "5Y"
+      },
+      "requests": [
+        {
+          "request_id": "12716.19",
+          "resource_type": "Fetch",
+          "method": "GET",
+          "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/history/period?period=5Y&adjustment=true&add-last-price=true",
+          "post_data": null,
+          "response": {
+            "status": 200,
+            "mime_type": "application/json",
+            "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/history/period?period=5Y&adjustment=true&add-last-price=true"
+          },
+          "body": {
+            "available": true,
+            "base64_encoded": false,
+            "length": 267554,
+            "preview": "{\"transco\":{\"code\":\"IT0003856405\",\"codification\":\"ISIN\",\"exchCode\":\"XMIL\"},\"history\":{\"historyDt\":[{\"dt\":\"20210915\",\"openPx\":6.828,\"closePx\":6.75,\"highPx\":6.842,\"lowPx\":6.732,\"lastPx\":6.75,\"qty\":3114353.0,\"volNbTrade\":5195.0,\"volCap\":2.1117294656E7,\"setPx\":6.780636,\"tickSizeRule\":\"ERX_25\",\"vwap\":6.780636},{\"dt\":\"20210916\",\"openPx\":6.808,\"closePx\":6.772,\"highPx\":6.868,\"lowPx\":6.758,\"lastPx\":6.772,\"qty\":2597775.0,\"volNbTrade\":4191.0,\"volCap\":1.7696150736E7,\"setPx\":6.81205,\"tickSizeRule\":\"ERX_25\",\"vwap\":6.812041},{\"dt\":\"20210917\",\"openPx\":6.82,\"closePx\":6.7,\"highPx\":6.836,\"lowPx\":6.66,\"lastPx\":6.7,\"qty\":5718576.0,\"volNbTrade\":7406.0,\"volCap\":3.8478781526E7,\"setPx\":6.728745,\"tickSizeRule\":\"ERX_25\",\"vwap\":6.728735},{\"dt\":\"20210920\",\"openPx\":6.6,\"closePx\":6.646,\"highPx\":6.672,\"lowPx\":6.488,\"lastPx\":6.646,\"qty\":4782578.0,\"volNbTrade\":7371.0,\"volCap\":3.1433846032E7,\"setPx\":6.572385,\"tickSizeRule\":\"ERX_25\",\"vwap\":6.572574},{\"dt\":\"20210921\",\"openPx\":6.682,\"closePx\":6.766,\"highPx\":6.818,\"lowPx\":6.678,\"lastPx\":6.766,\"qty\":3473842.0,\"volNbTrade\":4290.0,\"volCap\":2.3475580036E7,\"setPx\":6.757814,\"tickSizeRule\":\"ERX_25\",\"vwap\":6.757815},{\"dt\":\"20210922\",\"openPx\":6.82,\"closePx\":6.86,\"highPx\":6.884,\"lowPx\":6.804,\"lastPx\":6.86,\"qty\":2595067.0,\"volNbTrade\":3571.0,\"volCap\":1.777333809E7,\"setPx\":6.848894,\"tickSizeRule\":\"ERX_25\",\"vwap\":6.848894},{\"dt\":\"20210923\",\"openPx\":6.898,\"closePx\":6.91,\"highPx\":6.914,\"lowPx\":6.846,\"lastPx\":6.91,\"qty\":2978119.0,\"volNbTrade\":3905.0,\"volCap\":2.051851532E7,\"setPx\":6.889752,\"tickSizeRule\":\"ERX_25\",\"vwap\":6.889757},{\"dt\":\"20210924\",\"openPx\":6.876,\"closePx\":6.86,\"highPx\":6.924,\"lowPx\":6.852,\"lastPx\":6.86,\"qty\":3184695.0,\"volNbTrade\":3693.0,\"volCap\":2.1903811702E7,\"setPx\":6.877837,\"tickSizeRule\":\"ERX_25\",\"vwap\":6.877837},{\"dt\":\"20210927\",\"openPx\":6.92,\"closePx\":7.148,\"highPx\":7.15,\"lowPx\":6.894,\"lastPx\":7.148,\"qty\":1.0508846E7,\"volNbTrade\":11317.0,\"volCap\":7.4276863164E7,\"setPx\":7.068032,\"tickSizeRule\":\"ERX_25\",\"vwap\":7.068032},{\"dt\":\"20210928\",\"openPx\":7.12,\"closePx\":6.96,\"highPx\":7.168,\"lowPx\":6.956,\"lastPx\":6.96,\"qty\":5656717.0,\"volNbTrade\":7092.0,\"volCap\":3.9864642868E7,\"setPx\":7.047521,\"tickSizeRule\":\"ERX_25\",\"vwap\":7.047311},{\"dt\":\"20210929\",\"openPx\":7.02,\"closePx\":7.158,\"highPx\":7.158,\"lowPx\":6.924,\"lastPx\":7.158,\"qty\":5115171.0,\"volNbTrade\":5861.0,\"volCap\":3.6155143774E7,\"setPx\":7.068148,\"tickSizeRule\":\"ERX_25\",\"vwap\":7.068218},{\"dt\":\"20210930\",\"openPx\":7.19,\"closePx\":7.114,\"highPx\":7.28,\"lowPx\":7.106,\"lastPx\":7.114,\"qty\":7292004.0,\"volNbTrade\":9366.0,\"volCap\":5.242318153E7,\"setPx\":7.189159,\"tickSizeRule\":\"ERX_25\",\"vwap\":7.189132},{\"dt\":\"20211001\",\"openPx\":7.026,\"closePx\":7.15,\"highPx\":7.168,\"lowPx\":6.956,\"lastPx\":7.15,\"qty\":3364398.0,\"volNbTrade\":4914.0,\"volCap\":2.3853782494E7,\"setPx\":7.090017,\"tickSizeRule\":\"ERX_25\",\"vwap\":7.09006},{\"dt\":\"20211004\",\"openPx\":7.148,\"closePx\":7.262,\"highPx\":7.278,\"lowPx\":7.11,\"lastPx\":7.262,\"qty\":7728990.0,\"volNbTrade\":6932.0,\"volCap\":5.571585668E7,\"setPx\":7.208642,\"tickSizeRule\":\"ERX_25\",\"vwap\":7."
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "milestone": "V1B2E",
+  "source": "research\\v1b2d_r1_population_market_features.tsv",
+  "source_sha256": "d257715052e0e2d20f20b583f9fb1e6df4f26be2da7ccf56b7f318fdfc1bdb7e",
+  "source_manifest": "research\\v1b2d_r1_manifest.json",
+  "source_manifest_sha256": "1266795bc7cc3d2fc9b3311f04cca9ec93c18f8c884d4c42383c9a7639750503",
+  "observed_date": "2026-09-14",
+  "status_counts": {
+    "PASS": 970,
+    "NO_HISTORY": 1
+  },
+  "pass_count": 970,
+  "no_history_count": 1,
+  "quality_flagged_pass_count": 19,
+  "hard_gates": {
+    "population_971": true,
+    "status_counts_exact": true,
+    "unique_trading_lines": true,
+    "all_7_mics_present": true,
+    "hal_is_only_no_history": true,
+    "no_history_feature_values_empty": true,
+    "pass_sessions_positive": true,
+    "pass_latest_close_positive": true,
+    "no_future_as_of_dates": true,
+    "1m_coverage_exact": true,
+    "3m_coverage_exact": true,
+    "6m_coverage_exact": true,
+    "vol60_coverage_exact": true,
+    "dd252_coverage_exact": true,
+    "liquidity_true_requires_20_sessions": true,
+    "momentum_1m_finite": true,
+    "momentum_3m_finite": true,
+    "momentum_6m_finite": true,
+    "volatility_finite": true,
+    "current_drawdown_finite": true,
+    "max_drawdown_finite": true,
+    "volatility_nonnegative": true,
+    "current_drawdown_in_range": true,
+    "max_drawdown_in_range": true,
+    "max_dd_not_less_severe_than_current": true,
+    "mtaa_provider_mapping": true,
+    "non_mtaa_provider_mapping": true
+  },
+  "scoring_authorized": false,
+  "winsorization_frozen": false,
+  "percentile_mapping_frozen": false,
+  "open_methodological_issue": "MTAA prices are explicitly corporate-action adjusted while non-MTAA Euronext CSV adjustment semantics remain provider_default.",
+  "outputs": {
+    "summary": "research\\v1b2e_distribution_summary.tsv",
+    "quality_flags": "research\\v1b2e_quality_flags.tsv",
+    "tails": "research\\v1b2e_tail_observations.tsv"
+  }
+}

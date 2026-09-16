@@ -8,10 +8,7 @@ from euronext_pde.config import load_config
 def test_dimension_weights_sum_to_one() -> None:
     config = load_config()
 
-    total = sum(
-        dimension["weight"]
-        for dimension in config["dimensions"].values()
-    )
+    total = sum(dimension["weight"] for dimension in config["dimensions"].values())
 
     assert total == pytest.approx(1.0)
 
@@ -21,10 +18,7 @@ def test_opportunity_weights_sum_to_one() -> None:
 
     opportunity = config["opportunity"]
 
-    total = (
-        opportunity["state_weight"]
-        + opportunity["trajectory_weight"]
-    )
+    total = opportunity["state_weight"] + opportunity["trajectory_weight"]
 
     assert total == pytest.approx(1.0)
 

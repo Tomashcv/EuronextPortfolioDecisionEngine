@@ -1,0 +1,41 @@
+{
+  "isin": "IT0000060886",
+  "canonical_mic": "MTAA",
+  "provider_mic": "XMIL",
+  "interactive_chart_status": 200,
+  "jwt_found": true,
+  "jwt_value_persisted": false,
+  "jwt_length": 165,
+  "cookie_names": [
+    "JSESSIONID",
+    "incap_ses_4559_3233897",
+    "incap_ses_510_3233897",
+    "visid_incap_3233897"
+  ],
+  "api_status": 200,
+  "row_count": 1269,
+  "first_date": "20210915",
+  "last_date": "20260914",
+  "fields": [
+    "closePx",
+    "dt",
+    "highPx",
+    "lastPx",
+    "lowPx",
+    "openPx",
+    "qty",
+    "setPx",
+    "tickSizeRule",
+    "volCap",
+    "volNbTrade",
+    "vwap"
+  ],
+  "hard_gates": {
+    "warmup_http_200": true,
+    "jwt_found": true,
+    "api_http_200": true,
+    "provider_mic_xmil": true,
+    "history_nonempty": true,
+    "enough_6m": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "milestone": "V1B2F",
+  "source": "research\\v1b2d_r1_population_market_features.tsv",
+  "pass_population": 970,
+  "flagged_count": 266,
+  "diagnostic_thresholds_only": true,
+  "production_filters_frozen": false,
+  "winsorization_frozen": false,
+  "scoring_authorized": false,
+  "flag_counts": {
+    "flag_stale_gt_7d": 5,
+    "flag_stale_gt_30d": 5,
+    "flag_zero_vol": 19,
+    "flag_very_low_activity": 129,
+    "flag_low_activity": 242,
+    "flag_1m_abs_gt_100pct": 2,
+    "flag_3m_abs_gt_100pct": 6,
+    "flag_6m_abs_gt_100pct": 11,
+    "flag_vol_gt_150pct": 11,
+    "flag_vol_gt_300pct": 4,
+    "flag_current_dd_gt_90pct": 9,
+    "flag_max_dd_gt_90pct": 13
+  },
+  "output": "research\\v1b2f_outlier_triage.tsv"
+}

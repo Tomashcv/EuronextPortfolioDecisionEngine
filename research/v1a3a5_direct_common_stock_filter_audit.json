@@ -1,0 +1,268 @@
+{
+  "competition_mics": [
+    "MTAA",
+    "XAMS",
+    "XBRU",
+    "XLIS",
+    "XMSM",
+    "XOSL",
+    "XPAR"
+  ],
+  "official_filter": {
+    "field": "args[issueType]",
+    "value": "101",
+    "label": "Common Stock"
+  },
+  "raw_total": 1011,
+  "common_stock_total": 971,
+  "removed_count": 40,
+  "removed": [
+    {
+      "company_name": "DISTRI-LAND CERT",
+      "isin": "BE0003605160",
+      "ticker": "DISL",
+      "product_url": "https://live.euronext.com/en/product/equities/BE0003605160-XBRU"
+    },
+    {
+      "company_name": "DIEGEM KENNEDYCERT",
+      "isin": "BE0003698124",
+      "ticker": "DIEG",
+      "product_url": "https://live.euronext.com/en/product/equities/BE0003698124-XBRU"
+    },
+    {
+      "company_name": "ZENOBE GRAMME CERT",
+      "isin": "BE0003809267",
+      "ticker": "ZEN",
+      "product_url": "https://live.euronext.com/en/product/equities/BE0003809267-XBRU"
+    },
+    {
+      "company_name": "IMMO MECHELEN CITY CENTER",
+      "isin": "BE0974287196",
+      "ticker": "MCC",
+      "product_url": "https://live.euronext.com/en/product/equities/BE0974287196-XBRU"
+    },
+    {
+      "company_name": "CRCAM ALP.PROV.CCI",
+      "isin": "FR0000044323",
+      "ticker": "CRAP",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000044323-XPAR"
+    },
+    {
+      "company_name": "CRCAM NORM.SEINE",
+      "isin": "FR0000044364",
+      "ticker": "CCN",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000044364-XPAR"
+    },
+    {
+      "company_name": "CRCAM ILLE-VIL.CCI",
+      "isin": "FR0000045213",
+      "ticker": "CIV",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000045213-XPAR"
+    },
+    {
+      "company_name": "CRCAM LOIRE HAUTE LOIRE CCI",
+      "isin": "FR0000045239",
+      "ticker": "CRLO",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000045239-XPAR"
+    },
+    {
+      "company_name": "CRCAM TOURAINE CCI",
+      "isin": "FR0000045304",
+      "ticker": "CRTO",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000045304-XPAR"
+    },
+    {
+      "company_name": "CRCAM SUD R.A.CCI",
+      "isin": "FR0000045346",
+      "ticker": "CRSU",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000045346-XPAR"
+    },
+    {
+      "company_name": "CRCAM PARIS ET IDF",
+      "isin": "FR0000045528",
+      "ticker": "CAF",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000045528-XPAR"
+    },
+    {
+      "company_name": "CA TOULOUSE 31 CCI",
+      "isin": "FR0000045544",
+      "ticker": "CAT31",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000045544-XPAR"
+    },
+    {
+      "company_name": "CRCAM MORBIHAN CCI",
+      "isin": "FR0000045551",
+      "ticker": "CMO",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000045551-XPAR"
+    },
+    {
+      "company_name": "ROBERTET CI",
+      "isin": "FR0000045601",
+      "ticker": "CBE",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000045601-XPAR"
+    },
+    {
+      "company_name": "ROBERTET CDV 87",
+      "isin": "FR0000045619",
+      "ticker": "CBR",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000045619-XPAR"
+    },
+    {
+      "company_name": "ALTAMIR",
+      "isin": "FR0000053837",
+      "ticker": "LTA",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000053837-XPAR"
+    },
+    {
+      "company_name": "CRCAM ATL.VEND.CCI",
+      "isin": "FR0000185506",
+      "ticker": "CRAV",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000185506-XPAR"
+    },
+    {
+      "company_name": "CRCAM NORD CCI",
+      "isin": "FR0000185514",
+      "ticker": "CNDF",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0000185514-XPAR"
+    },
+    {
+      "company_name": "CRCAM LANGUED CCI",
+      "isin": "FR0010461053",
+      "ticker": "CRLA",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0010461053-XPAR"
+    },
+    {
+      "company_name": "CRCAM BRIE PIC2CCI",
+      "isin": "FR0010483768",
+      "ticker": "CRBP2",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0010483768-XPAR"
+    },
+    {
+      "company_name": "ARVERNE WARRANT",
+      "isin": "FR0014003AC4",
+      "ticker": "ARVBS",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0014003AC4-XPAR"
+    },
+    {
+      "company_name": "DEEZER WARRANTS",
+      "isin": "FR0014004JF6",
+      "ticker": "DEEZW",
+      "product_url": "https://live.euronext.com/en/product/equities/FR0014004JF6-XPAR"
+    },
+    {
+      "company_name": "PIERRE VACANCES BSA CREANCIERS",
+      "isin": "FR001400B4G1",
+      "ticker": "VACBT",
+      "product_url": "https://live.euronext.com/en/product/equities/FR001400B4G1-XPAR"
+    },
+    {
+      "company_name": "PIERRE VACANCES BSA ACTIONNAIRES",
+      "isin": "FR001400B4H9",
+      "ticker": "VACBS",
+      "product_url": "https://live.euronext.com/en/product/equities/FR001400B4H9-XPAR"
+    },
+    {
+      "company_name": "CASINO BSA1",
+      "isin": "FR001400OJ72",
+      "ticker": "COBS1",
+      "product_url": "https://live.euronext.com/en/product/equities/FR001400OJ72-XPAR"
+    },
+    {
+      "company_name": "CASINO BSA3",
+      "isin": "FR001400OJ98",
+      "ticker": "COBS3",
+      "product_url": "https://live.euronext.com/en/product/equities/FR001400OJ98-XPAR"
+    },
+    {
+      "company_name": "AB SCIENCE BSA",
+      "isin": "FR001400ZRT0",
+      "ticker": "ABBS",
+      "product_url": "https://live.euronext.com/en/product/equities/FR001400ZRT0-XPAR"
+    },
+    {
+      "company_name": "MYHOTELMATCH DS",
+      "isin": "FR001401ANO1",
+      "ticker": "MHMDS",
+      "product_url": "https://live.euronext.com/en/product/equities/FR001401ANO1-XPAR"
+    },
+    {
+      "company_name": "WARRANT FINCANTIERI 2024-2026",
+      "isin": "IT0005599862",
+      "ticker": "WFCT26",
+      "product_url": "https://live.euronext.com/en/product/equities/IT0005599862-MTAA"
+    },
+    {
+      "company_name": "WARRANT GEOX 2025-2026",
+      "isin": "IT0005644809",
+      "ticker": "WGEO26",
+      "product_url": "https://live.euronext.com/en/product/equities/IT0005644809-MTAA"
+    },
+    {
+      "company_name": "WARRANT DEXELANCE 2026-2029",
+      "isin": "IT0005703761",
+      "ticker": "DEX29",
+      "product_url": "https://live.euronext.com/en/product/equities/IT0005703761-MTAA"
+    },
+    {
+      "company_name": "YOUNITED FINANCIAL WARRANTS",
+      "isin": "LU2999660207",
+      "ticker": "YOUNW",
+      "product_url": "https://live.euronext.com/en/product/equities/LU2999660207-XPAR"
+    },
+    {
+      "company_name": "CABKA N.V. EUR 12 WARRANTS",
+      "isin": "NL00150000U3",
+      "ticker": "DSCW2",
+      "product_url": "https://live.euronext.com/en/product/equities/NL00150000U3-XAMS"
+    },
+    {
+      "company_name": "CABKA N.V. EUR 13 WARRANTS",
+      "isin": "NL00150000V1",
+      "ticker": "DSCW3",
+      "product_url": "https://live.euronext.com/en/product/equities/NL00150000V1-XAMS"
+    },
+    {
+      "company_name": "AZERION GROUP N.V.",
+      "isin": "NL00150007A0",
+      "ticker": "AZRNW",
+      "product_url": "https://live.euronext.com/en/product/equities/NL00150007A0-XAMS"
+    },
+    {
+      "company_name": "NEW AMSTERDAM INVEST N.V.",
+      "isin": "NL0015000CH0",
+      "ticker": "NAIW",
+      "product_url": "https://live.euronext.com/en/product/equities/NL0015000CH0-XAMS"
+    },
+    {
+      "company_name": "BANIJAY GROUP WARANTS",
+      "isin": "NL0015000H56",
+      "ticker": "BNJW",
+      "product_url": "https://live.euronext.com/en/product/equities/NL0015000H56-XAMS"
+    },
+    {
+      "company_name": "SPEAR INVESTMENTS I WARRANTS",
+      "isin": "NL0015000NK1",
+      "ticker": "QEVW",
+      "product_url": "https://live.euronext.com/en/product/equities/NL0015000NK1-XAMS"
+    },
+    {
+      "company_name": "Value8 cumulatief financieringspreferente aandelen C",
+      "isin": "NL0015118803",
+      "ticker": "PREVA",
+      "product_url": "https://live.euronext.com/en/product/equities/NL0015118803-XAMS"
+    },
+    {
+      "company_name": "ATLANTIC SAPPHIRE ASA TR",
+      "isin": "NO0013340802",
+      "ticker": "ASAS",
+      "product_url": "https://live.euronext.com/en/product/equities/NO0013340802-XOSL"
+    }
+  ],
+  "hard_gates": {
+    "raw_full_response": true,
+    "common_full_response": true,
+    "common_is_subset": true,
+    "filter_removes_instruments": true,
+    "set_difference_matches": true
+  }
+}

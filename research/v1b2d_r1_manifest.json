@@ -1,0 +1,59 @@
+{
+  "milestone": "V1B2D-R1",
+  "purpose": "Scientifically neutral repair of nullable ancillary market fields and explicit NO_HISTORY state.",
+  "population_count": 971,
+  "parent_status_counts": {
+    "PASS": 968,
+    "FETCH_FAIL": 2,
+    "FEATURE_FAIL": 1
+  },
+  "final_status_counts": {
+    "PASS": 970,
+    "NO_HISTORY": 1
+  },
+  "repair_ids": {
+    "IT0005481855-MTAA": "MET.EXTRA GROUP",
+    "IT0005730095-MTAA": "EPH INVEST",
+    "BMG455841020-XAMS": "HAL TRUST"
+  },
+  "parent_v1b2d_reused_pass_rows": 968,
+  "parent_pass_rows_recomputed": 0,
+  "parent_pass_semantic_hash_before": "1053a092084e88b5dd155a6dd1d8a9bd94333a97fa9309ea74566fa53aef8dc3",
+  "parent_pass_semantic_hash_after": "1053a092084e88b5dd155a6dd1d8a9bd94333a97fa9309ea74566fa53aef8dc3",
+  "parent_pass_rows_unchanged": true,
+  "parent_output_sha256": "2386be339b1a77774480d53e935d15b1d5fb1dcbf0a0bb8c1f3957dc6e3028bb",
+  "parent_output_unchanged": true,
+  "parent_manifest_sha256": "b0dd9fdd36cf4d33a32d58a1d9db6044b13e63fb6f2fdae7eca288f45d7fa581",
+  "parent_failures_sha256": "ad3fc5aee661e585cdcd4bbaacf537cb2a31c863b4b13cb99aeaa6823ad84899",
+  "raw_failure_audit_sha256": "79fadfaa14f18e5d3fb59e78b53f687d95c6df0efb34ef9f21dfbc340c1503d8",
+  "current_code_hashes": {
+    "market_data_schema": "f729092c61966558c680da85a4d0e87775bc22f0648f85b5e8570d90ccd1ba18",
+    "historical_market_provider": "a05dd0e6c0471e85941d253260d1518c78d29e3005e835db09827be6f5c5247e",
+    "market_features": "67d26350dd698efd8918fa8925ee6093d8ead63e20a9a52a02561a0eb3f87cb6"
+  },
+  "repair_policy": {
+    "close_required": true,
+    "ancillary_fields_nullable": true,
+    "imputation_used": false,
+    "sessions_dropped_for_missing_ancillary_fields": false,
+    "no_history_is_failure": false,
+    "jwt_or_cookie_values_persisted": false
+  },
+  "hard_gates": {
+    "population_971": true,
+    "no_duplicate_lines": true,
+    "parent_pass_rows_968": true,
+    "parent_pass_rows_unchanged": true,
+    "met_extra_repaired_pass": true,
+    "eph_invest_repaired_pass": true,
+    "hal_classified_no_history": true,
+    "final_status_counts_exact": true,
+    "no_fetch_fail": true,
+    "no_parse_fail": true,
+    "no_feature_fail": true
+  },
+  "completed_at_utc": "2026-09-14T23:20:01.110004+00:00",
+  "output": "research\\v1b2d_r1_population_market_features.tsv",
+  "nonpass_output": "research\\v1b2d_r1_population_nonpass.tsv",
+  "repair_evidence": "research\\v1b2d_r1_repair_evidence.tsv"
+}

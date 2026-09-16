@@ -1,0 +1,608 @@
+[
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/en/products/equities/regulated/list",
+    "resource_type": "Document",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.4.0/css/bootstrap-slider.css",
+    "resource_type": "Stylesheet",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/css/css_liCquPAEVfzsktfdttf0si3_DU3j6j2Nm89xy9HznP4.css?delta=4&language=en&theme=euronext_live&include=eJyNVdGS2zoI_aFk3bntQ_-GwRK26crCV0JJ3K8vkuN227W7fdjJGqEDHA4IcyYFjt_IqaTO5fyCE6xStPQES8A1cFbwnHsMBC6wewWJkHicFG7sSfIFD0BmgIEfq3oYlkAPlRwEvnz-euLsRF7Z8GVeAmN0dOZXUqLoVsj8newUFn8Wn_IIQ4k-g2IfzgAtSQgySoaJWk1WHMesqcwUFRYc6SzAZNXDSGnGCAHjWMwX8p3VTZRO7nD09AAvrsGfIW9eke5Q2f_Q69yhpg__F1FLjDC5CRbJrCzx5Epr08DRWsAYgG41y63STE6itx8CDAH6ompcvenu5xNMnWi262u08JxzoVxZP3G-sdUDs_R83DL7A_TfSlZqDIIKmFITcVQaEyr5Kost5g0D-2o6QqqdN4jSOn4Yq8rrTwKP_ALPbFJJMgt8-vRlVxI9HC1NUJNYMhXq6HYUrQoct8RbRlECx1dgqzHbTARJhy1evIl8a44m9Aag4nFt9bPauFrtuAifCC0PTf29BL_5_81rEOMgwYxpNPjWxiNvy3iBf-_R1qczIEmY1hbd9k-dYai0VEaSgdlxlabO4fj-Q4speMGEFnI5bFwVm-EHq-yw9jv1oGSqzM4OKsfGrgwDOIw3zDbH9xgEbccRakm1xFlMdB9h5YUcD-yqZnxxdb-m5ll759lZV6P83HUnaDvYk6l1D24J2pQvYDscUN8ss7_i7BlRYAHbmpTCynEEdMa2bwvjHp5zue-SqtXOzNfNfN3M12pu3u-ro9y1A9-kmaFK7gPHZ3t212foXh7d75_tVGWZUFtO27_X4C49K1rHkpRMwQb0v65arrvlapZLb_I2nnCBHlNi6fpE6J0R178_GyTNb6zZeO3GIPZCXrPagxnHi5FGnU9lwfCCRaU9bKR08WvE2XhuOyVXYddHtmuf14Ep-AuV989hd2QETwOWoHYjSTTB23zc6M9UzF7HZs_m-Xn5ORh5P_lleSlxKb29PZOtzrzWOe56zPQDlNdEew",
+    "resource_type": "Stylesheet",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/css/css_GRvOPwEGVwUxswMBD6Bj_x2rYYfq5rr5cAtIbnZPnc0.css?delta=5&language=en&theme=euronext_live&include=eJyNVdGS2zoI_aFk3bntQ_-GwRK26crCV0JJ3K8vkuN227W7fdjJGqEDHA4IcyYFjt_IqaTO5fyCE6xStPQES8A1cFbwnHsMBC6wewWJkHicFG7sSfIFD0BmgIEfq3oYlkAPlRwEvnz-euLsRF7Z8GVeAmN0dOZXUqLoVsj8newUFn8Wn_IIQ4k-g2IfzgAtSQgySoaJWk1WHMesqcwUFRYc6SzAZNXDSGnGCAHjWMwX8p3VTZRO7nD09AAvrsGfIW9eke5Q2f_Q69yhpg__F1FLjDC5CRbJrCzx5Epr08DRWsAYgG41y63STE6itx8CDAH6ompcvenu5xNMnWi262u08JxzoVxZP3G-sdUDs_R83DL7A_TfSlZqDIIKmFITcVQaEyr5Kost5g0D-2o6QqqdN4jSOn4Yq8rrTwKP_ALPbFJJMgt8-vRlVxI9HC1NUJNYMhXq6HYUrQoct8RbRlECx1dgqzHbTARJhy1evIl8a44m9Aag4nFt9bPauFrtuAifCC0PTf29BL_5_81rEOMgwYxpNPjWxiNvy3iBf-_R1qczIEmY1hbd9k-dYai0VEaSgdlxlabO4fj-Q4speMGEFnI5bFwVm-EHq-yw9jv1oGSqzM4OKsfGrgwDOIw3zDbH9xgEbccRakm1xFlMdB9h5YUcD-yqZnxxdb-m5ll759lZV6P83HUnaDvYk6l1D24J2pQvYDscUN8ss7_i7BlRYAHbmpTCynEEdMa2bwvjHp5zue-SqtXOzNfNfN3M12pu3u-ro9y1A9-kmaFK7gPHZ3t212foXh7d75_tVGWZUFtO27_X4C49K1rHkpRMwQb0v65arrvlapZLb_I2nnCBHlNi6fpE6J0R178_GyTNb6zZeO3GIPZCXrPagxnHi5FGnU9lwfCCRaU9bKR08WvE2XhuOyVXYddHtmuf14Ep-AuV989hd2QETwOWoHYjSTTB23zc6M9UzF7HZs_m-Xn5ORh5P_lleSlxKb29PZOtzrzWOe56zPQDlNdEew",
+    "resource_type": "Stylesheet",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/css/css_DpKLTmfJObmR8wF_am4r9A3eSZOBKomWM2kbrLlIq0M.css?delta=6&language=en&theme=euronext_live&include=eJyNVdGS2zoI_aFk3bntQ_-GwRK26crCV0JJ3K8vkuN227W7fdjJGqEDHA4IcyYFjt_IqaTO5fyCE6xStPQES8A1cFbwnHsMBC6wewWJkHicFG7sSfIFD0BmgIEfq3oYlkAPlRwEvnz-euLsRF7Z8GVeAmN0dOZXUqLoVsj8newUFn8Wn_IIQ4k-g2IfzgAtSQgySoaJWk1WHMesqcwUFRYc6SzAZNXDSGnGCAHjWMwX8p3VTZRO7nD09AAvrsGfIW9eke5Q2f_Q69yhpg__F1FLjDC5CRbJrCzx5Epr08DRWsAYgG41y63STE6itx8CDAH6ompcvenu5xNMnWi262u08JxzoVxZP3G-sdUDs_R83DL7A_TfSlZqDIIKmFITcVQaEyr5Kost5g0D-2o6QqqdN4jSOn4Yq8rrTwKP_ALPbFJJMgt8-vRlVxI9HC1NUJNYMhXq6HYUrQoct8RbRlECx1dgqzHbTARJhy1evIl8a44m9Aag4nFt9bPauFrtuAifCC0PTf29BL_5_81rEOMgwYxpNPjWxiNvy3iBf-_R1qczIEmY1hbd9k-dYai0VEaSgdlxlabO4fj-Q4speMGEFnI5bFwVm-EHq-yw9jv1oGSqzM4OKsfGrgwDOIw3zDbH9xgEbccRakm1xFlMdB9h5YUcD-yqZnxxdb-m5ll759lZV6P83HUnaDvYk6l1D24J2pQvYDscUN8ss7_i7BlRYAHbmpTCynEEdMa2bwvjHp5zue-SqtXOzNfNfN3M12pu3u-ro9y1A9-kmaFK7gPHZ3t212foXh7d75_tVGWZUFtO27_X4C49K1rHkpRMwQb0v65arrvlapZLb_I2nnCBHlNi6fpE6J0R178_GyTNb6zZeO3GIPZCXrPagxnHi5FGnU9lwfCCRaU9bKR08WvE2XhuOyVXYddHtmuf14Ep-AuV989hd2QETwOWoHYjSTTB23zc6M9UzF7HZs_m-Xn5ORh5P_lleSlxKb29PZOtzrzWOe56zPQDlNdEew",
+    "resource_type": "Stylesheet",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_Ka0MjmPWSnFzT-ssRbRRGA-rmNMuuHvXpnjC_mpCNRs.O0c8-sVHwDyAerLtyODDXKa6D2HrsM6daDGvIMHKReM.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_5FuQXh5YkggY1DnZDPnnccy8CEAzsDNtQfewdL-9LZQ.q8tB9Pfujq4VV650D_M6_l1iXYoUZfSgWXjHljdiJGw.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_fghgupw2DxGYNNywQ-b46r9l9NJpwIvM15fkI0ztDHA.teK0rwFjpDUX_J2fiaa278qcs6m3kJsMNQOMCOEIyZQ.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_p90D2fjQIioLx_vc9MoBb06pl_BW_7bMeU6X4SuUHyQ.LSLyaj09ZF8OUbsVnaKBVDz4gExNi4PnHwSj2ZbIo3E.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/themes/custom/euronext_live/logo_extended.svg",
+    "resource_type": "Image",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/themes/custom/euronext_live/frontend-library/public/assets//icons/login-icon-anonymous.svg",
+    "resource_type": "Image",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_Z6FUYOSY-RIT6x3vgxEMB4XfJ9vHMW_i5ABAlGV9-MM.yp8VM459joIKyqXqYzC2vtDhFqFfggS6hkCRecpvg8g.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_vuJmVHiwgpS1v12iZhg1ES3euAbX7Y55_g8nlVucBWo.wLeQmShGb6HLMW2wqCahmTtx4Lk_-UF_pq6bBrqy4hQ.js?v=3.7.1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_lL-1Mvlm-SgnRD-imygerOvYOEDd3vEOlB1eYpFe9JA.Es7GSqe-SlSpLUlN51JnQt9eo6MxzBn0lsUAhPTj9FA.js?v=1.0.1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_W1UPRbgCs_ErOQqqYv2grGhGGb2gZAtXVL6bx7zizQE.lyXXWhtRW1skkUMXhQaLOjEKNsBRIBeQQyKhdHzEEIM.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_8aEuTUhHMsD0620P5h5x0Zo2gpicOVqpGkYvUhbIKYk.RF0GjUAwHr9jSB3jE-uVCW1fBnVOzW3t6CcIv-_fKgY.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_hUYZLgJcbwTBFFgShAweHfrO8EvXnzy0actY0O9JWzQ.5vLeGugrHR-hcTT01Ztt1jNq3XXojT0Vj8qkUBEFsJg.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/svg4everybody/2.1.9/svg4everybody.legacy.min.js",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_Rl7kPtACFQt3FhDDUQYRGouYU5lEAeb4p0GsdztFj4c.NtSul8KU6rPl-G2YQcjTP1KqHIFg_Xbm8eyht2n9-RU.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_GtN6IX2i_87FVsWIdgA7yJl9AK-pu9Vxo3i_1OrkfWw.jp4iDzN9n7IYMvOymuaAgiDRFqMWvKZYzyVc5ydXTiA.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_rGHSqvPMSMZ5Ki0sVoC_4I94PT3BQPoQxxVRLInR8_g.R4etB-RmOYMmTY2i13deucFa_hv2O0e5npVQF6zkJPE.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_GbDstDwzZqJJ32aSFnDIIZ5ehMoudrugqsZFnLOO5-A.JqoqGYqwiq1RIuJIptqT8DvDnaEo7zV38qudItUcZhk.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_mLMXZzWsMBYFL-WvsRBguHUm_9d1Vn2KwyLFCGWDPIU.VnHEvN_yflfOSj9wssEXJLpeXAPQlktqh0seNe5yP1Q.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_dbuBYb8jA2yGCcJRlQlNkz26Y3VN2pFy-aSu0yIA3qM.fAbejU8TKiH4G4-MLZ-1qDrUcKHtUOn5-b-aLnrQxtw.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_galvnhcZeAlqW1pBzOyREOylZ8vqSzNW2FxLvoVn1Zc.Xcs_-gV_g15X1CCsqr4ZQeW6O00Ye1871kLJcLcQ6b8.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_49ZgAamBzyOc1IcK4Z_moUSGaG9VqeCgNVrwd6s7tHY.A2J8DFalUclPracDzxnYniCl3yC3YP6KQ3PJEab3rsk.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_LJngIh2Nz8k0Efqne1OfMokpAfgeHEE4UyNHCsgtK9o.JT8F5b_fWeUzr3NT-QNkooSvueQc_JSCHvjBlLgSsqk.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_pFB7GKVbqejxQSLjRp1pgXXn3AQHQduVHS8HAcZ87Qg.2a4etKrUycBsqfqpkjK0oP5oAcGnfD1knhks3k8Kz44.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_pEAeBfk9CZpD7V1bsRQx0vmv9ro_7We2rBLvpOB1H4A.tRdo--wMnqpOla8I5spcjj6Ne_DerRkCqZ-VB_0BIik.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_icn0D_ANkh2_gt7plZm-x6IS_ibuqv6TmSBAsnfqljY.RHFZgTESEEwmozunklKHQ6UYVm-i23WuffYlx2Xc40s.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_BbvfzXuMVN4F8C_2cOllg2DmF9HVYVSLmcbzcDt6YwQ.v7dJvdk4c1pKXUWh3YVZ_xrhpEkvz-VsA0qw42yJQJ0.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_u7uMyNPVncdXpDLTtR2xavl4Is1VmQkPW0FZ0F_dB2U.IpR1Y8gcLy-t91TNPbcGcxLWEjtGuBKtpsv552KB2wU.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_zTIdmKVspeKBKso0xP_szlDOnA9ohLYEljX76l2iQzk.EwB1KGDkbo1nKPzZmfkRol0mJny1MTwN-rNftS8oH-k.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_WOHtWNF_nBi1TbQVbN-XzctV3wTVoftTS3jrnP_JknY.6cyg8vZxWAlSrnSHnyrZMwjrPl3BdR74kVU0heS2wMc.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_QnkZYeWc4P3VK9fnIFrwSr1LQZ0DX2JPSu_Esm3PKbw.abkwcovauqosx24IODVpYv-n1fAUaFcSyzFNVWRw8RA.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_vnYgBjMJL4jBG-2JkG3u20Oud35jlhqwbMW9WcVv9AM.0OKO9SEOJ_WtnA6J5N0-umyo-wDGSq1ZENKYXL1MheY.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_DpwGteHDDZ84Sx0gAzDAypZv3fPCrHHIgCZeA3KpzeM.5aRkB3cNK2JAnoXucKvEBtr5mVektTPc3XXRnX-E_T0.js?v=1.x",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_PQcetaEbRHaNl8rtJbEY9j2GR7Ijxgu1C2L5OMZ1000.6AP4bdHVnmNxCIV2u4auR5VDpetfTSmYUPW3mqYFTnk.js?v=6.3.0",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_TLkDEEuqsxeBfAhP23CtOgOFK3IiSMjXlIOaitdC8v0.eWbjP3If5wAH0yPxYoxFB78xEsSVx3Xszg55Ct5gTrA.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_6EMRSBHkvv49yjkoEdDJsdHK6BhJhg8R432WKn1aPoc._utT0-T8jTC6h5cm7Epd09Sf9Dq06E4kdWXf0SL5Rh0.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_BaE_S0Eno_orbv2p918-QSPXZtels8YkhCdzwo2JM-E.uFn3hyeVIi-L5JO22DvH6S7XeF7a5sJVN3kqruXA6N0.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_DwB70VlE9Ty00Ax0o0cXtid0ADb83uakhQUa6Ok8o9U.fcB5bBRvl9lWZoJHnZ09mgY9BUqc7Yb_xYyIRuTqOBQ.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_5q6oK-aXC63pIyL9rUjNVcg3R43ZYAfRrS5VbbI0Dko.rO8x4i8mcn_2Nkojauop5FhyKQTyIecxVoFPHNwCtzw.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_cQ54vZqOM7QVwxvIDEzsliY_XpPZo5gK1oyCniDWFNI.I7hVKBiOz5wooukDvw8puyONniCe9ZVzT0qqpfVOfgw.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_icQwKOw2mrj5lnFLSPQ0nTxjvIZdFvmyWhgCU0rcoBc.0qDWWLYAFo5W209ZERgtUEWZ0L_MRH1e3tK2nDRRnAU.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_rIfYR1ECd2sUEmYV_kgYr9vdRNmza2W_V0wnJwgPeBk.XjzkEaiPPim7mpCJ3xPzek4KheIyf920JIq3Tn-p0sc.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_FhZXO-p0QtVmshC6e09XFqzyYtHXDgS_QbqR1iNziic.9YhlwsdJUc9VUwcB9wj6pOIMZAezy8fneAP-7Cx1t9M.js?v=1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_20SBCT0oQXyVyYol5DOA91ItOuWEGgH8EFAMtk8bLMM.lgAWkklOeJhN4coIbH7LNY3sJjzvN-6P_NiF86c4bSk.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_KosJgsbE3w8RhZ8ZVTP4xShJGegSPhDe0IVgPSzYcDo.vmHpSvidrMG9UZTkmw-qPrhbaUJkw9n9lVBMuGcwdTA.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_6wPSaKkQ6RlRebXS52eiSm56KW7TInloNlqXfRWJSyU.FcUTGQTJ_BNgmIC6Wzs1nMupauAI8TKexxPnpT1V8tQ.js?v=1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js__gHSOJpSK5hEmnCAxNnN0Nw7iT-n-BSdk1JiXFeebxM.SVRVzmX-ZEPJO3oIbfpsmd470kiI80NcB8zo53r-w5U.js?v=1.x",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_mm4Rvh4BE-FWHVeyEViiEI0qrtasqn8f_W8uMOlamMM.pyQFhgYbAXFa_CgmJB96gMgqDteiwa2XwzgXN6npgoE.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_gaOy5XriVC_sT54qnDO1K-RRbJb0f7TBERHtvecDXiI.ueVfjM4Ec8WuCOWnVA4akjp0wRHc_UFmOhZj5oQALV0.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_Yr2nScf64n4PTebJYwKUx-hUTgR5id5L_hlR-83gmiQ.9El0oc0d0gWxG2MxpritFgCOw4l26TZ98U_Qsbsayzk.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_Pgonc1FsNqeJJjhcFI8Xtqs2_ZIItoj4RN_bJ9G_3z4.ZR4jmOQkbVi-4XnSYRLkWPsIynlYzG-IfTqaypYs3hM.js?v=4.3.0",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_7vL4DqV3jbcbhWv4yotyVxc5tEeDeOzyYJ4pMXFQvDs.pPjDtBkAjNRL99_1Fg3UAHNeHcs4yRgQCsQt1kOGEQE.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_EnRL3xQaAlmZjbGfT7JOIuuee_GV_SnF1kgMLj6XWIc.XvHqzgtBP-9z9KZbyJcDfAqJJwnmrgKqmv2-jO5StTo.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_ek2wukaIogBZTUjcuh9fMUjdy3ULbWEOwdb6Gbu7vCc.0iRbHbH1UcDa3TGp2derhkgeUsu73w4AdwhS1UTHp_I.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_flAnwtylfeHQvqTpDcj3tAIaELiEmBDdkL4DK_i9EUk.mFf4vbMvdJ2D5XsFG-yRaLRXEP6S3sytt9Z0wCKuRoA.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_l4kD-gBW2vEpgPUvyrgZpXwkpt8jNKIKvhnEGbnAAqw.OYmlP5XaMkv4Pmi8y0azJSZRwH4bf-NOyOtVQ28q7_Y.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_YqHF5rzjdqUFeZ0D1Hs1tDwOpAZyimDj7RjYTvKn3bo.NmBiV5hQuU-Unh9xrWKzTCK55nV1zSwcdPsjVhPo1vQ.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_lhUTS3HqYPsv3EIyjid6BPTRF8LK1CwzzlMY1HAElvQ.2fDJt2olaVo22Hi6vdTcjq1oeYgCzXHrcKk3jLQphnM.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_H5cAerB8VeqxTFRC00PcfEzBLIMgPd9vPWDgd_nGMQU.iM7cevgjChYRfG1UFFRbcaaDWG8hC6OCm6DxTla1fB4.js?v=1.x",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_NRutxjpBjFcISPuYJ31arJR_m-VRafhpwBoVjmvCqTc.ar82_efmL9Qxr3kMMd5uW7l6qUTgVL9fP7Y6h0cxOmI.js?v=1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_p4P6obwY1PdpAcSk6rl8ykWx7CD8X3IUHu_36QKXml4.aK4ilccdnIsg3Q7BFtMNWrs6hbf2AAPXCc4AM7rCPq8.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_yGafHY5uwfX140g2z-AvR7brAiviM9Sp_dGXNE9R0Y0.iZ9xL74j00DU07LxZ0B_w21cwRYo8wKmWFLfeP8JXs0.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_PttlUdrPj7f4ohaFS7O5AMH2LRM45bX2wGGxvz03-yI.8iQBG-OX3e5qjdVWGBe7bl51rIqNWsi_KMQKX-iZKNc.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_E3OygyOUybKOGAhvFPUyrA08x-tLG-TxXLlubX637dc.AnlnpiJx3Zi5YtXGYPi798XdWZPEx0tjcb46DWN1Y_c.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_4vgIHqj_NGDT5nuVDmaVJXMRgWhzuxZoSgAi3cimBzk.9sfGhBsvv-bgMBC4Rw-o6I-YGCi0NcO21QSU7xLUR6c.js?v=1.15.6",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_oefDhnd7rdMvmEv4cVUHrSrBkCcRWpK20o0XtAcZgVI.M4kBH1VpOR7sMAiw3Bz56znfh2Fgpp8YwMABbmYkBv0.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.4.0/bootstrap-slider.js",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.min.js",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.14.3/xlsx.full.min.js",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_kxOt57XPo9ROPGvGcVRPF0Hv9VkmKsWdCo-ahXTaxuI.GZWEwT4S9wuHsarFW7g8w1A6r4NVIWWw-DCBILlJFww.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_lCsDxsWI1lDC8ceBiwTIZQ-bbxWRSfzkg8U2sbLrGBg.C-OhZphdeAmvL5CKHmfqy0sv8LRwp5NPXKCIHi6YvK0.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_2qdjXkA9CgLyrpuV8ZRBOmiyYvW9DDlgMwziGIJPAKg.-Q17xC56n7FS_MKx34gsG5xi1kPD0lVL4i_5UhbdQ30.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_oC_ve28M_OLuStFiA7F2fENhrSZOQaKPDPvP--hkOxU.vaO4_OD46iSiYlO1rSrKYNmI3pGszIUpvmGoggyVsi8.js?v=10.6.9",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_q1qYL2vsQ_BQC7tIkhdyYkvoP2r_Ys3MyMz10Ek1jJI.a9rASgDJ-yC0VIjfrPr6TqnZK1sYhhEnzCn6Xf3S0EM.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_6C8tI4PjvTbXbhYiWlW1geFpmYWkSC9xJVOTDVHSAF0.1LhqvUyRjvyA2aOBFfsp7NznLIO3a8aUbeFX3Il0pmE.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_CKTJzFhpHHKhgl-vaO1mTUOblkXok4JOG7kVBZ_qU8A.G8cwpY_2isEdhan6vraDsuZ6id6jhbsjxM8Z3NcroDA.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_iNqs1TAE_1ysy1kd12n_mevdSR3WnxI3JS-TAHO9E1k.gJLQgG9z1Ux7zjhT6k-xiTUg64qainiKW-v_Fs4vnJc.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_zzSpgQg2R1NZW4-gZuHJ3DLZcnou9dIf-jyMv7KG7I8.bHpPyVBBvSAwQk4G4mD7PRMFsIYVEm1JLvjDfbO_bj4.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_l3EwSXkdNSNZqA5m_3Nfqi8HrETejLOK74rlm20Q3R8.q4gKEegnRJt9YBGh8w7I-ZRI3wv04vkvqbNak932giI.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_eLy8nEY1Ss2x5U-Sr4Qv12S7C0eWNGjpyc1RaKsguZg.tiBz-OksX_f0jEsfzdrM2wIQ9WW6nRC4u7J-PFdB3ww.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_q-_cIb_G8W4nilk1ZjtBSMANKlOdJ3nqQKXw01McegA.mA94rHTVcgUD4X5sEQ9X2Hp2dmB40yjvUetzM5IPYsk.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/assets/js/optimized/js_1TQZOvsjPJq0urYV6KzpypNrvHngDDvGuo0sqj1lMAo.Qck0SgMRw_B2Jk2RLHcJmO1I89rJlzCMR8u9sJSv7Yc.js?tla2s1",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/themes/custom/euronext_live/frontend-library/public/assets/spritemap.svg",
+    "resource_type": "Other",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/themes/custom/euronext_live/frontend-library/public/assets//spritemap.svg",
+    "resource_type": "Other",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/themes/custom/euronext_base/frontend-library/public/assets/fonts/Inter-Regular.ttf",
+    "resource_type": "Font",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/themes/custom/euronext_base/frontend-library/public/assets/fonts/Inter-Medium.ttf",
+    "resource_type": "Font",
+    "post_data": null
+  },
+  {
+    "method": "POST",
+    "url": "https://live.euronext.com/en/product_directory/data/stocks-euronext-regulated?mics=MTAA%2CXAMS%2CXBRU%2CXLDN%2CXLIS%2CXMSM%2CXOSL%2CXPAR",
+    "resource_type": "XHR",
+    "post_data": "draw=1&columns%5B0%5D%5Bdata%5D=0&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=1&columns%5B1%5D%5Bname%5D=&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=false&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=2&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=false&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=3&columns%5B3%5D%5Bname%5D=&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=false&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B4%5D%5Bdata%5D=4&columns%5B4%5D%5Bname%5D=&columns%5B4%5D%5Bsearchable%5D=true&columns%5B4%5D%5Borderable%5D=false&columns%5B4%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B4%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B5%5D%5Bdata%5D=5&columns%5B5%5D%5Bname%5D=&columns%5B5%5D%5Bsearchable%5D=true&columns%5B5%5D%5Borderable%5D=false&columns%5B5%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B5%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B6%5D%5Bdata%5D=6&columns%5B6%5D%5Bname%5D=&columns%5B6%5D%5Bsearchable%5D=true&columns%5B6%5D%5Borderable%5D=false&columns%5B6%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B6%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&length=100&search%5Bvalue%5D=&search%5Bregex%5D=false&args%5Bdisplay_datapoints%5D=name%2Cisin%2Csymbol%2Cmarket%2ClastPrice%2CprecentDayChange%2ClastTradeTime&iDisplayLength=100&iDisplayStart=0&sSortDir_0=asc&sSortField=shortName"
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/favicon.ico",
+    "resource_type": "Other",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://cdn.cookielaw.org/logos/9ffee8f9-1686-4003-ad66-f4458d6cc2d1/d676f308-f26e-41f2-8fde-3de1a442e07f/63fcb957-8d49-4e0b-822c-f673240a1cdc/logo_euronext_2.PNG",
+    "resource_type": "Image",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://adagiofe.neodatagroup.com/ad/lseg.jsp?sid=1016&loc=liveur_home_altro&fmt=fmt_euronext_async&dfamily=desktop&keyw=https_live_euronext_com_en_products_equities_regulated_list&rnd=1789337970745&gdpr=1&gdpr_consent=CQqewsAQqewsAAcABBENCwFgAAAAAAAAAChQAAAAAAAA.YAAAAAAAAAAA",
+    "resource_type": "Script",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/themes/custom/euronext_live/frontend-library/public/assets/icons/sort-asc.svg",
+    "resource_type": "Image",
+    "post_data": null
+  },
+  {
+    "method": "GET",
+    "url": "https://live.euronext.com/themes/custom/euronext_base/frontend-library/public/assets/fonts/Inter-Bold.ttf",
+    "resource_type": "Font",
+    "post_data": null
+  }
+]

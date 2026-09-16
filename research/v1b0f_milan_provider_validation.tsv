@@ -1,0 +1,9 @@
+trading_line_id	security_id	display_name	provider_exchange_code	adjusted_rows	raw_rows	oldest	newest	calendar_days	fresh	duplicate_adjusted_dates	same_adjusted_raw_dates	adjusted_close_diff_days	euronext_recent_rows	cross_source_overlap_days	compared_recent_days	recent_ohlc_mismatches	recent_volume_mismatches	enough_6m	enough_1y	near_5y
+IT0000060886-MTAA	IT0000060886	FNM	XMIL	1269	1269	2021-09-15	2026-09-14	1825	True	0	True	0	5	5	5	0	0	True	True	True
+IT0001237053-MTAA	IT0001237053	EMAK	XMIL	1270	1270	2021-09-15	2026-09-14	1825	True	0	True	0	5	5	5	0	0	True	True	True
+IT0003173629-MTAA	IT0003173629	BANCA SISTEMA	XMIL	1270	1270	2021-09-15	2026-09-14	1825	True	0	True	0	5	5	5	0	0	True	True	True
+IT0004240443-MTAA	IT0004240443	PIQUADRO	XMIL	1249	1249	2021-09-15	2026-09-14	1825	True	0	True	0	5	5	5	0	0	True	True	True
+IT0005117848-MTAA	IT0005117848	CLASS EDITORI	XMIL	1257	1257	2021-09-15	2026-09-14	1825	True	0	True	0	5	5	5	0	0	True	True	True
+IT0005329815-MTAA	IT0005329815	SOMEC	XMIL	1265	1265	2021-09-15	2026-09-14	1825	True	0	True	0	5	5	5	0	0	True	True	True
+IT0005573065-MTAA	IT0005573065	UNIDATA	XMIL	1247	1247	2021-09-15	2026-09-14	1825	True	0	True	557	5	5	5	0	0	True	True	True
+NL0015435975-MTAA	NL0015435975	CAMPARI	XMIL	1270	1270	2021-09-15	2026-09-14	1825	True	0	True	0	5	5	5	0	0	True	True	True

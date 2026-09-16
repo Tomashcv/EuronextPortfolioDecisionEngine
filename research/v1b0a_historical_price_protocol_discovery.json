@@ -1,0 +1,389 @@
+{
+  "trading_line_id": "NL0000226223-XPAR",
+  "url": "https://live.euronext.com/en/popout-page/getHistoricalPrice/NL0000226223-XPAR",
+  "title": "Historical data - Euronext exchange Live quotes",
+  "xhr_fetch": [
+    {
+      "request_id": "5512.202",
+      "resource_type": "XHR",
+      "method": "POST",
+      "url": "https://live.euronext.com/en/ajax/getHistoricalPricePopup/NL0000226223-XPAR",
+      "headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "Referer": "https://live.euronext.com/en/popout-page/getHistoricalPrice/NL0000226223-XPAR",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "X-Requested-With": "XMLHttpRequest",
+        "sec-ch-ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": "format=xls&decimal_separator=.&date_form=d%2Fm%2FY&adjusted=Y&startdate=2026-09-01&enddate=2026-09-14&nbSession=10",
+      "response": {
+        "status": 200,
+        "mime_type": "application/json",
+        "url": "https://live.euronext.com/en/ajax/getHistoricalPricePopup/NL0000226223-XPAR"
+      }
+    },
+    {
+      "request_id": "5512.205",
+      "resource_type": "XHR",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/consent/aceed67c-127a-4288-9cc3-ba9469d44184/aceed67c-127a-4288-9cc3-ba9469d44184.json",
+      "headers": {
+        "Referer": "https://live.euronext.com/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "application/json",
+        "url": "https://cdn.cookielaw.org/consent/aceed67c-127a-4288-9cc3-ba9469d44184/aceed67c-127a-4288-9cc3-ba9469d44184.json"
+      }
+    },
+    {
+      "request_id": "5512.207",
+      "resource_type": "XHR",
+      "method": "GET",
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+      "headers": {
+        "Referer": "https://live.euronext.com/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "sec-ch-ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "application/json",
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+      }
+    },
+    {
+      "request_id": "5512.209",
+      "resource_type": "Fetch",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/consent/aceed67c-127a-4288-9cc3-ba9469d44184/0f7bd05c-79a3-4ce7-8719-73e611f853e8/en.json",
+      "headers": {
+        "Referer": "https://live.euronext.com/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "application/json",
+        "url": "https://cdn.cookielaw.org/consent/aceed67c-127a-4288-9cc3-ba9469d44184/0f7bd05c-79a3-4ce7-8719-73e611f853e8/en.json"
+      }
+    },
+    {
+      "request_id": "5512.210",
+      "resource_type": "Fetch",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/vendorlist/iab2V2Data.json",
+      "headers": {
+        "Referer": "https://live.euronext.com/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "application/json",
+        "url": "https://cdn.cookielaw.org/vendorlist/iab2V2Data.json"
+      }
+    },
+    {
+      "request_id": "5512.212",
+      "resource_type": "Fetch",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/scripttemplates/202310.2.0/assets/otFlat.json",
+      "headers": {
+        "Referer": "https://live.euronext.com/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "application/json",
+        "url": "https://cdn.cookielaw.org/scripttemplates/202310.2.0/assets/otFlat.json"
+      }
+    },
+    {
+      "request_id": "5512.213",
+      "resource_type": "Fetch",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/scripttemplates/202310.2.0/assets/v2/otPcCenter.json",
+      "headers": {
+        "Referer": "https://live.euronext.com/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "application/json",
+        "url": "https://cdn.cookielaw.org/scripttemplates/202310.2.0/assets/v2/otPcCenter.json"
+      }
+    },
+    {
+      "request_id": "5512.214",
+      "resource_type": "Fetch",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/scripttemplates/202310.2.0/assets/otCookieSettingsButton.json",
+      "headers": {
+        "Referer": "https://live.euronext.com/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "application/json",
+        "url": "https://cdn.cookielaw.org/scripttemplates/202310.2.0/assets/otCookieSettingsButton.json"
+      }
+    },
+    {
+      "request_id": "5512.215",
+      "resource_type": "Fetch",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/scripttemplates/202310.2.0/assets/otCommonStyles.css",
+      "headers": {
+        "Referer": "https://live.euronext.com/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "text/css",
+        "url": "https://cdn.cookielaw.org/scripttemplates/202310.2.0/assets/otCommonStyles.css"
+      }
+    },
+    {
+      "request_id": "5512.216",
+      "resource_type": "Fetch",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+      "headers": {
+        "Referer": "https://live.euronext.com/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "image/svg+xml",
+        "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg"
+      }
+    }
+  ],
+  "forms": [
+    {
+      "index": 1,
+      "id": "full-dl-form-awl_historical_price",
+      "action": "https://live.euronext.com/en/ajax/AwlHistoricalPrice/getFullDownloadAjax/NL0000226223-XPAR",
+      "method": "get",
+      "controls": [
+        {
+          "tag": "input",
+          "type": "radio",
+          "id": "edit-format-xls-awl_historical_price",
+          "name": "format",
+          "value": "xls",
+          "checked": true,
+          "outer_html": "<input type=\"radio\" id=\"edit-format-xls-awl_historical_price\" name=\"format\" value=\"xls\" class=\"custom-control-input\" checked=\"checked\">"
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "id": "edit-format-csv-awl_historical_price",
+          "name": "format",
+          "value": "csv",
+          "checked": false,
+          "outer_html": "<input type=\"radio\" id=\"edit-format-csv-awl_historical_price\" name=\"format\" value=\"csv\" class=\"custom-control-input\">"
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "id": "edit-format-txt-awl_historical_price",
+          "name": "format",
+          "value": "txt",
+          "checked": false,
+          "outer_html": "<input type=\"radio\" id=\"edit-format-txt-awl_historical_price\" name=\"format\" value=\"txt\" class=\"custom-control-input\">"
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "id": "edit-decimal-separator-.-wrapper-awl_historical_price",
+          "name": "decimal_separator",
+          "value": ".",
+          "checked": true,
+          "outer_html": "<input type=\"radio\" id=\"edit-decimal-separator-.-wrapper-awl_historical_price\" name=\"decimal_separator\" value=\".\" class=\"custom-control-input\" checked=\"checked\">"
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "id": "edit-decimal-separator-,-wrapper-awl_historical_price",
+          "name": "decimal_separator",
+          "value": ",",
+          "checked": false,
+          "outer_html": "<input type=\"radio\" id=\"edit-decimal-separator-,-wrapper-awl_historical_price\" name=\"decimal_separator\" value=\",\" class=\"custom-control-input\">"
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "id": "edit-date-form-d/m/Y-awl_historical_price",
+          "name": "date_form",
+          "value": "d/m/Y",
+          "checked": true,
+          "outer_html": "<input type=\"radio\" id=\"edit-date-form-d/m/Y-awl_historical_price\" name=\"date_form\" value=\"d/m/Y\" class=\"custom-control-input\" checked=\"checked\">"
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "id": "edit-date-form-m/d/Y-awl_historical_price",
+          "name": "date_form",
+          "value": "m/d/Y",
+          "checked": false,
+          "outer_html": "<input type=\"radio\" id=\"edit-date-form-m/d/Y-awl_historical_price\" name=\"date_form\" value=\"m/d/Y\" class=\"custom-control-input\">"
+        },
+        {
+          "tag": "button",
+          "type": "submit",
+          "id": "submit_dl_form",
+          "name": "op",
+          "value": "",
+          "checked": null,
+          "outer_html": "<button type=\"submit\" name=\"op\" id=\"submit_dl_form\" class=\"btn btn-lg btn-outline-primary btn-block\">Download</button>"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "id": "historial-price-advanced-filters",
+      "action": "https://live.euronext.com/en/popout-page/getHistoricalPrice/NL0000226223-XPAR",
+      "method": "get",
+      "controls": [
+        {
+          "tag": "input",
+          "type": "radio",
+          "id": "customRadio1",
+          "name": "adjusted",
+          "value": "Y",
+          "checked": true,
+          "outer_html": "<input type=\"radio\" id=\"customRadio1\" name=\"adjusted\" class=\"custom-control-input\" value=\"Y\" checked=\"\">"
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "id": "customRadio2",
+          "name": "adjusted",
+          "value": "N",
+          "checked": false,
+          "outer_html": "<input type=\"radio\" id=\"customRadio2\" name=\"adjusted\" class=\"custom-control-input\" value=\"N\">"
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "id": "customCheck1",
+          "name": "base100",
+          "value": "Y",
+          "checked": false,
+          "outer_html": "<input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck1\" name=\"base100\" value=\"Y\">"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "id": "historial-price",
+      "action": "https://live.euronext.com/en/popout-page/getHistoricalPrice/NL0000226223-XPAR",
+      "method": "get",
+      "controls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "datetimepickerFrom",
+          "name": "startdate",
+          "value": "2026-09-01",
+          "checked": false,
+          "outer_html": "<input type=\"text\" class=\"form-control form-control-sm\" id=\"datetimepickerFrom\" name=\"startdate\" value=\"2026-09-01\">"
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "datetimepickerTo",
+          "name": "enddate",
+          "value": "2026-09-14",
+          "checked": false,
+          "outer_html": "<input type=\"text\" class=\"form-control form-control-sm\" id=\"datetimepickerTo\" name=\"enddate\" value=\"2026-09-14\">"
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "id": "reset-historical-price",
+          "name": "",
+          "value": "",
+          "checked": null,
+          "outer_html": "<button type=\"button\" id=\"reset-historical-price\" class=\"btn btn-lg btn-ui-grey-4 btn-block\">Reset</button>"
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "id": "",
+          "name": "",
+          "value": "",
+          "checked": null,
+          "outer_html": "<button type=\"button\" class=\"btn btn-link p-0 ml-auto d-inline-block\" data-toggle=\"popover\" data-placement=\"bottom\" data-trigger=\"focus\" data-html=\"true\" data-content=\"Duration for which download of historical data is available &lt;br&gt;\n- All markets but Milan: 2 years&lt;br&gt;\n- Milan : 5 days\" data-original-title=\"\" title=\"\">\n\n                                    <svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" role=\"presentation\" class=\"\">\n                                        <use xlink:href=\"/themes/custom/euronext_live/frontend-library/public/assets/spritemap.svg#info\"></use>\n                                    </svg>\n                                    Help\n                                </button>"
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "id": "",
+          "name": "",
+          "value": "",
+          "checked": null,
+          "outer_html": "<button type=\"button\" class=\"btn btn-link p-0 ml-auto d-inline-block\">\n                                <svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" role=\"presentation\" class=\"download\">\n                                    <use xlink:href=\"/themes/custom/euronext_live/frontend-library/public/assets/spritemap.svg#print\"></use>\n                                </svg>\n                            </button>"
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "id": "AwlHistoricalPriceTable",
+      "class": "table table-sm text-center dt-responsive dataTable",
+      "text": "DATE OPEN HIGH LOW LAST CLOSE NUMBER OF SHARES TURNOVER VWAP\n14/09/2026 43.44 43.455 41.36 41.735 41.735 2,986,790 125,228,635 41.9275\n11/09/2026 43.76 44.695 43.72 44.675 44.675 1,739,660 77,239,709 44.3993\n10/09/2026 44.56 45.035 43.09 43.64 43.64 2,876,133 125,724,369 43.7130\n09/09/2026 45.21 45.30 43.71 44.625 44.625 2,038,842 90,756,388 44.5137\n08/09/2026 46.075 46.40 44.735 45.005 45.005 2,164,705 97,855,514 45.2050\n07/09/2026 45.70 46.72 45.605 46.635 46.635 1,709,832 79,328,683 46.3956\n04/09/2026 44.39 45.36 44.215 44.805 44.805 2,302,789 103,505,645 44.9480\n03/09/2026 43.82 44.595 43.035 44.025 44.025 2,169,587 95,105,053 43.8356\n02/09/2026 42.52 43.935 42.43 43.72 43.72 1,790,061 77,657,394 43.3825\n01/09/2026 43.485 44.155 41.83 42.305 42.305 2,192,052 93,238,507 42.5348"
+    }
+  ],
+  "body_keyword_presence": {
+    "Adjusted": true,
+    "Non-Adjusted": true,
+    "Open": true,
+    "High": true,
+    "Low": true,
+    "Close": true,
+    "Vol.": false,
+    "Download": true
+  }
+}

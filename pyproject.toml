@@ -10,6 +10,7 @@ readme = "README.md"
 requires-python = ">=3.12,<3.13"
 
 dependencies = [
+    "beautifulsoup4>=4.15.0",
     "httpx>=0.27",
     "numpy>=2.0",
     "pandas>=2.2",
@@ -26,6 +27,7 @@ epde = "euronext_pde.cli:main"
 dev = [
     "pytest>=8.0",
     "ruff>=0.6",
+    "selenium>=4.49.0",
 ]
 
 [tool.hatch.build.targets.wheel]

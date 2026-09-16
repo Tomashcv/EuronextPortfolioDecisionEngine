@@ -1,0 +1,39 @@
+{
+  "milestone": "V1B2D",
+  "snapshot_date": "2026-09-13",
+  "population_definition": "Euronext Regulated trading lines with official is_common_stock=True",
+  "expected_population": 971,
+  "population_count": 971,
+  "classification_observed_dates": [
+    "2026-09-14"
+  ],
+  "mic_counts": {
+    "MTAA": 200,
+    "XAMS": 118,
+    "XBRU": 103,
+    "XLIS": 33,
+    "XMSM": 16,
+    "XOSL": 197,
+    "XPAR": 304
+  },
+  "contract_hashes": {
+    "trading_lines": "584a274ba96b00fc3906fef1a6553d32d1f03e47b22c2c94c1b2cf96320dd0dd",
+    "instrument_classification": "b086e5978223a3b056c583f6c62aa72c2a1b3e8e955407df0b3ac4fa30dafc67",
+    "feature_code": "e29eb137d81f3074478d67e34655bb664e46ea9d61db0416657d3aa031444a5b",
+    "provider_code": "8ee2a13c464e60f78c130dcfc47f0dd8674996683e2e80aca986b2f3bf85ee64",
+    "market_data_schema": "c15f33dcf42cf0f6d0edb0fcdae7e95eecd737aec2aa24cfadadb8d2b8a22b4c"
+  },
+  "started_at_utc": "2026-09-14T22:58:54.793189+00:00",
+  "last_updated_at_utc": "2026-09-14T23:13:58.089947+00:00",
+  "checkpoint_path": "research\\v1b2d_population_checkpoint.jsonl",
+  "output_path": "research\\v1b2d_population_market_features.tsv",
+  "failures_path": "research\\v1b2d_population_failures.tsv",
+  "secrets_persisted": false,
+  "checkpointed_count": 971,
+  "complete": true,
+  "status_counts": {
+    "PASS": 968,
+    "FETCH_FAIL": 2,
+    "FEATURE_FAIL": 1
+  }
+}

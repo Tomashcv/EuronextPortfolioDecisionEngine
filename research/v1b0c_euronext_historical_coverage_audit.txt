@@ -1,0 +1,126 @@
+====================================================================================================
+Paris — STMicroelectronics
+NL0000226223-XPAR
+HTTP: 200
+CONTENT-TYPE: text/csv;charset=UTF-8
+COVERAGE HEADER: "From 16/09/2024 to 14/09/2026"
+ROWS: 509
+OLDEST: 2024-09-16
+NEWEST: 2026-09-14
+CALENDAR DAYS: 728
+DUPLICATE DATES: 0
+COLUMNS: ['Date', 'Open', 'High', 'Low', 'Last', 'Close', 'Number of Shares', 'Number of Trades', 'Turnover', 'vwap']
+MISSING:
+  Open                 0
+  High                 0
+  Low                  0
+  Close                0
+  Number of Shares     0
+  Number of Trades     0
+  Turnover             0
+  vwap                 0
+====================================================================================================
+Milan — STMicroelectronics
+NL0000226223-MTAA
+HTTP: 200
+CONTENT-TYPE: text/csv;charset=UTF-8
+COVERAGE HEADER: "From 07/09/2026 to 14/09/2026"
+ROWS: 6
+OLDEST: 2026-09-07
+NEWEST: 2026-09-14
+CALENDAR DAYS: 7
+DUPLICATE DATES: 0
+COLUMNS: ['Date', 'Open', 'High', 'Low', 'Last', 'Close', 'Number of Shares', 'Number of Trades', 'Turnover', 'vwap']
+MISSING:
+  Open                 0
+  High                 0
+  Low                  0
+  Close                0
+  Number of Shares     0
+  Number of Trades     0
+  Turnover             0
+  vwap                 0
+====================================================================================================
+Amsterdam — ING
+NL0011821202-XAMS
+HTTP: 200
+CONTENT-TYPE: text/csv;charset=UTF-8
+COVERAGE HEADER: "From 16/09/2024 to 14/09/2026"
+ROWS: 509
+OLDEST: 2024-09-16
+NEWEST: 2026-09-14
+CALENDAR DAYS: 728
+DUPLICATE DATES: 0
+COLUMNS: ['Date', 'Open', 'High', 'Low', 'Last', 'Close', 'Number of Shares', 'Number of Trades', 'Turnover', 'vwap']
+MISSING:
+  Open                 0
+  High                 0
+  Low                  0
+  Close                0
+  Number of Shares     0
+  Number of Trades     0
+  Turnover             0
+  vwap                 0
+====================================================================================================
+Brussels — AB InBev
+BE0974293251-XBRU
+HTTP: 200
+CONTENT-TYPE: text/csv;charset=UTF-8
+COVERAGE HEADER: "From 16/09/2024 to 14/09/2026"
+ROWS: 509
+OLDEST: 2024-09-16
+NEWEST: 2026-09-14
+CALENDAR DAYS: 728
+DUPLICATE DATES: 0
+COLUMNS: ['Date', 'Open', 'High', 'Low', 'Last', 'Close', 'Number of Shares', 'Number of Trades', 'Turnover', 'vwap']
+MISSING:
+  Open                 0
+  High                 0
+  Low                  0
+  Close                0
+  Number of Shares     0
+  Number of Trades     0
+  Turnover             0
+  vwap                 0
+====================================================================================================
+Lisbon — Euronext
+NL0006294274-XLIS
+HTTP: 200
+CONTENT-TYPE: text/csv;charset=UTF-8
+COVERAGE HEADER: "From 16/09/2024 to 25/09/2025"
+ROWS: 262
+OLDEST: 2024-09-16
+NEWEST: 2025-09-25
+CALENDAR DAYS: 374
+DUPLICATE DATES: 0
+COLUMNS: ['Date', 'Open', 'High', 'Low', 'Last', 'Close', 'Number of Shares', 'Number of Trades', 'Turnover', 'vwap']
+MISSING:
+  Open                 0
+  High                 0
+  Low                  0
+  Close                0
+  Number of Shares     0
+  Number of Trades     0
+  Turnover             0
+  vwap                 0
+====================================================================================================
+Oslo — CMB.TECH
+BE0003816338-XOSL
+HTTP: 200
+CONTENT-TYPE: text/csv;charset=UTF-8
+COVERAGE HEADER: "From 19/08/2025 to 14/09/2026"
+ROWS: 274
+OLDEST: 2025-08-19
+NEWEST: 2026-09-14
+CALENDAR DAYS: 391
+DUPLICATE DATES: 0
+COLUMNS: ['Date', 'Open', 'High', 'Low', 'Last', 'Close', 'Number of Shares', 'Number of Trades', 'Turnover', 'vwap']
+MISSING:
+  Open                 0
+  High                 0
+  Low                  0
+  Close                0
+  Number of Shares     0
+  Number of Trades     0
+  Turnover             0
+  vwap                 0

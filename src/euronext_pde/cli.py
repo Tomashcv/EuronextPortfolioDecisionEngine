@@ -50,8 +50,7 @@ def doctor() -> int:
 
 def weekly() -> int:
     print(
-        "Weekly pipeline skeleton is installed. "
-        "V1A universe/data ingestion is the next milestone."
+        "Weekly pipeline skeleton is installed. V1A universe/data ingestion is the next milestone."
     )
 
     return 0

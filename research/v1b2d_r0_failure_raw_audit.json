@@ -1,0 +1,150 @@
+{
+  "milestone": "V1B2D-R0",
+  "purpose": "Read-only raw inspection of the three deterministic population failures.",
+  "secrets_persisted": false,
+  "borsa_cases": [
+    {
+      "name": "MET.EXTRA GROUP",
+      "isin": "IT0005481855",
+      "status": 200,
+      "provider_mic": "XMIL",
+      "rows": 1071,
+      "first_date": "20210915",
+      "last_date": "20260914",
+      "missing_by_field": {
+        "openPx": 1
+      },
+      "incomplete_row_count": 1,
+      "close_missing_count": 0,
+      "all_incomplete_rows_have_close": true,
+      "incomplete_rows_last_20": 0,
+      "incomplete_rows_last_61": 0,
+      "incomplete_rows_last_127": 0,
+      "incomplete_rows_last_252": 0,
+      "incomplete_rows": [
+        {
+          "index": 356,
+          "sessions_from_end": 714,
+          "dt": "20230323",
+          "missing": [
+            "openPx"
+          ],
+          "closePx": 3.94,
+          "openPx": null,
+          "highPx": 3.94,
+          "lowPx": 3.94,
+          "lastPx": 3.94,
+          "qty": 6.0,
+          "volNbTrade": 2.0,
+          "volCap": 23.64,
+          "vwap": 3.94
+        }
+      ]
+    },
+    {
+      "name": "EPH INVEST",
+      "isin": "IT0005730095",
+      "status": 200,
+      "provider_mic": "XMIL",
+      "rows": 1241,
+      "first_date": "20210915",
+      "last_date": "20260914",
+      "missing_by_field": {
+        "volCap": 3,
+        "vwap": 3
+      },
+      "incomplete_row_count": 3,
+      "close_missing_count": 0,
+      "all_incomplete_rows_have_close": true,
+      "incomplete_rows_last_20": 0,
+      "incomplete_rows_last_61": 0,
+      "incomplete_rows_last_127": 0,
+      "incomplete_rows_last_252": 0,
+      "incomplete_rows": [
+        {
+          "index": 793,
+          "sessions_from_end": 447,
+          "dt": "20241023",
+          "missing": [
+            "volCap",
+            "vwap"
+          ],
+          "closePx": 20.0,
+          "openPx": 20.0,
+          "highPx": 20.0,
+          "lowPx": 20.0,
+          "lastPx": 20.0,
+          "qty": 2e-05,
+          "volNbTrade": 1.0,
+          "volCap": null,
+          "vwap": null
+        },
+        {
+          "index": 809,
+          "sessions_from_end": 431,
+          "dt": "20241119",
+          "missing": [
+            "volCap",
+            "vwap"
+          ],
+          "closePx": 20.0,
+          "openPx": 20.0,
+          "highPx": 20.0,
+          "lowPx": 20.0,
+          "lastPx": 20.0,
+          "qty": 2e-05,
+          "volNbTrade": 1.0,
+          "volCap": null,
+          "vwap": null
+        },
+        {
+          "index": 810,
+          "sessions_from_end": 430,
+          "dt": "20241120",
+          "missing": [
+            "volCap",
+            "vwap"
+          ],
+          "closePx": 20.0,
+          "openPx": 20.0,
+          "highPx": 20.0,
+          "lowPx": 20.0,
+          "lastPx": 20.0,
+          "qty": 3e-05,
+          "volNbTrade": 1.0,
+          "volCap": null,
+          "vwap": null
+        }
+      ]
+    }
+  ],
+  "euronext_cases": [
+    {
+      "name": "HAL TRUST",
+      "isin": "BMG455841020",
+      "trading_line_id": "BMG455841020-XAMS",
+      "status": 200,
+      "content_type": "text/csv;charset=UTF-8",
+      "content_disposition": "attachment; filename=\"HAL TRUST_historical_price.csv\"",
+      "body_bytes": 123,
+      "raw_line_count": 4,
+      "nonempty_line_count": 4,
+      "header_index": 3,
+      "parsed_row_count": 0,
+      "first_15_nonempty_lines": [
+        "﻿\"Historical Data\"",
+        "\"From  to \"",
+        "BMG455841020",
+        "Date;Open;High;Low;Last;Close;\"Number of Shares\";\"Number of Trades\";Turnover"
+      ],
+      "last_10_nonempty_lines": [
+        "﻿\"Historical Data\"",
+        "\"From  to \"",
+        "BMG455841020",
+        "Date;Open;High;Low;Last;Close;\"Number of Shares\";\"Number of Trades\";Turnover"
+      ],
+      "first_parsed_row": null,
+      "last_parsed_row": null
+    }
+  ]
+}

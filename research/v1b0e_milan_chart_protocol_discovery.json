@@ -1,0 +1,131 @@
+{
+  "trading_line_id": "IT0003856405-MTAA",
+  "url": "https://grafici.borsaitaliana.it/summary-chart/IT0003856405-MTAA?lang=it",
+  "title": "Summary Chart - IT0003856405-XMIL",
+  "controls": [],
+  "network": [
+    {
+      "request_id": "0007C26DE2F6196C8415C00DC20343F2",
+      "resource_type": "Document",
+      "method": "GET",
+      "url": "https://grafici.borsaitaliana.it/summary-chart/IT0003856405-MTAA?lang=it",
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "text/html",
+        "url": "https://grafici.borsaitaliana.it/summary-chart/IT0003856405-MTAA?lang=it"
+      },
+      "body": null
+    },
+    {
+      "request_id": "2636.2",
+      "resource_type": "Stylesheet",
+      "method": "GET",
+      "url": "https://grafici.borsaitaliana.it/assets/css/base-2262d055d9b425049bb7fc016269b891.css",
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "text/css",
+        "url": "https://grafici.borsaitaliana.it/assets/css/base-2262d055d9b425049bb7fc016269b891.css"
+      },
+      "body": null
+    },
+    {
+      "request_id": "2636.3",
+      "resource_type": "Script",
+      "method": "GET",
+      "url": "https://grafici.borsaitaliana.it/assets/js/web-components-7921a5d0dc47cfe5baadae99b28536c5.js",
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "text/javascript",
+        "url": "https://grafici.borsaitaliana.it/assets/js/web-components-7921a5d0dc47cfe5baadae99b28536c5.js"
+      },
+      "body": null
+    },
+    {
+      "request_id": "2636.4",
+      "resource_type": "Stylesheet",
+      "method": "GET",
+      "url": "https://grafici.borsaitaliana.it/assets/css/web-components-b91279a2c7bdacd12843e52b23f4432d.css",
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "text/css",
+        "url": "https://grafici.borsaitaliana.it/assets/css/web-components-b91279a2c7bdacd12843e52b23f4432d.css"
+      },
+      "body": null
+    },
+    {
+      "request_id": "2636.5",
+      "resource_type": "Script",
+      "method": "GET",
+      "url": "https://grafici.borsaitaliana.it/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1698979070",
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "application/javascript",
+        "url": "https://grafici.borsaitaliana.it/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1698979070"
+      },
+      "body": null
+    },
+    {
+      "request_id": "2636.10",
+      "resource_type": "Font",
+      "method": "GET",
+      "url": "https://grafici.borsaitaliana.it/assets/fonts/Inter-Medium-a6f54808ec0aeaf49a25a2d94b6adda6.ttf",
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "application/x-font-ttf",
+        "url": "https://grafici.borsaitaliana.it/assets/fonts/Inter-Medium-a6f54808ec0aeaf49a25a2d94b6adda6.ttf"
+      },
+      "body": null
+    },
+    {
+      "request_id": "2636.11",
+      "resource_type": "Image",
+      "method": "GET",
+      "url": "https://grafici.borsaitaliana.it/_Incapsula_Resource?SWKMTFSR=1&e=0.5824763769314286",
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "text/plain",
+        "url": "https://grafici.borsaitaliana.it/_Incapsula_Resource?SWKMTFSR=1&e=0.5824763769314286"
+      },
+      "body": null
+    },
+    {
+      "request_id": "2636.12",
+      "resource_type": "Fetch",
+      "method": "GET",
+      "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/intraday?resolution=1MN",
+      "post_data": null,
+      "response": {
+        "status": 200,
+        "mime_type": "application/json",
+        "url": "https://grafici.borsaitaliana.it/api/instruments/IT0003856405,XMIL,ISIN/intraday?resolution=1MN"
+      },
+      "body": {
+        "available": true,
+        "base64_encoded": false,
+        "length": 213517,
+        "preview": "{\"intradayPoint\":[{\"time\":\"20260914-09:00:00\",\"nbTrade\":354,\"beginPx\":49.9,\"beginTime\":\"09:00:09\",\"endPx\":50.1,\"endTime\":\"09:00:59\",\"highPx\":50.5,\"lowPx\":49.885,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":45812.0,\"amt\":2291400.345,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:01:00\",\"nbTrade\":36,\"beginPx\":50.15,\"beginTime\":\"09:01:02\",\"endPx\":50.11,\"endTime\":\"09:02:00\",\"highPx\":50.22,\"lowPx\":50.09,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":3637.0,\"amt\":182397.7,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:02:00\",\"nbTrade\":54,\"beginPx\":50.12,\"beginTime\":\"09:02:01\",\"endPx\":50.16,\"endTime\":\"09:03:00\",\"highPx\":50.27,\"lowPx\":50.11,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":7415.0,\"amt\":372102.96,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:03:00\",\"nbTrade\":18,\"beginPx\":50.17,\"beginTime\":\"09:03:10\",\"endPx\":50.18,\"endTime\":\"09:03:48\",\"highPx\":50.22,\"lowPx\":50.15,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":1391.0,\"amt\":69806.67,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:04:00\",\"nbTrade\":87,\"beginPx\":50.21,\"beginTime\":\"09:04:09\",\"endPx\":50.4,\"endTime\":\"09:04:55\",\"highPx\":50.48,\"lowPx\":50.21,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":10147.0,\"amt\":510944.37,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:05:00\",\"nbTrade\":64,\"beginPx\":50.37,\"beginTime\":\"09:05:02\",\"endPx\":50.3,\"endTime\":\"09:05:45\",\"highPx\":50.41,\"lowPx\":50.18,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":5947.0,\"amt\":298948.04,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:06:00\",\"nbTrade\":12,\"beginPx\":50.34,\"beginTime\":\"09:06:04\",\"endPx\":50.36,\"endTime\":\"09:06:39\",\"highPx\":50.37,\"lowPx\":50.34,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":1716.0,\"amt\":86413.22,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:07:00\",\"nbTrade\":26,\"beginPx\":50.37,\"beginTime\":\"09:07:05\",\"endPx\":50.48,\"endTime\":\"09:07:52\",\"highPx\":50.48,\"lowPx\":50.35,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":4021.0,\"amt\":202864.34,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:08:00\",\"nbTrade\":78,\"beginPx\":50.45,\"beginTime\":\"09:08:05\",\"endPx\":50.55,\"endTime\":\"09:08:54\",\"highPx\":50.55,\"lowPx\":50.38,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":11945.0,\"amt\":603087.83,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:09:00\",\"nbTrade\":52,\"beginPx\":50.52,\"beginTime\":\"09:09:05\",\"endPx\":50.59,\"endTime\":\"09:09:58\",\"highPx\":50.59,\"lowPx\":50.52,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":6545.0,\"amt\":330919.85,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:10:00\",\"nbTrade\":61,\"beginPx\":50.59,\"beginTime\":\"09:10:05\",\"endPx\":50.7,\"endTime\":\"09:10:56\",\"highPx\":50.72,\"lowPx\":50.59,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":7539.0,\"amt\":381811.78,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:11:00\",\"nbTrade\":109,\"beginPx\":50.74,\"beginTime\":\"09:11:02\",\"endPx\":50.75,\"endTime\":\"09:12:00\",\"highPx\":50.84,\"lowPx\":50.71,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":15228.0,\"amt\":772926.57,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:12:00\",\"nbTrade\":45,\"beginPx\":50.74,\"beginTime\":\"09:12:01\",\"endPx\":50.71,\"endTime\":\"09:12:59\",\"highPx\":50.76,\"lowPx\":50.7,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":5761.0,\"amt\":292198.04,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:13:00\",\"nbTrade\":81,\"beginPx\":50.72,\"beginTime\":\"09:13:06\",\"endPx\":50.79,\"endTime\":\"09:13:53\",\"highPx\":50.79,\"lowPx\":50.7,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":14843.0,\"amt\":753322.03,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:14:00\",\"nbTrade\":59,\"beginPx\":50.8,\"beginTime\":\"09:14:01\",\"endPx\":50.8,\"endTime\":\"09:14:53\",\"highPx\":50.83,\"lowPx\":50.76,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":8980.0,\"amt\":456016.9,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:15:00\",\"nbTrade\":46,\"beginPx\":50.79,\"beginTime\":\"09:15:04\",\"endPx\":50.77,\"endTime\":\"09:15:49\",\"highPx\":50.83,\"lowPx\":50.76,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":5339.0,\"amt\":271171.94,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:16:00\",\"nbTrade\":32,\"beginPx\":50.75,\"beginTime\":\"09:16:06\",\"endPx\":50.58,\"endTime\":\"09:16:52\",\"highPx\":50.77,\"lowPx\":50.58,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":3214.0,\"amt\":163055.72,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:17:00\",\"nbTrade\":17,\"beginPx\":50.57,\"beginTime\":\"09:17:01\",\"endPx\":50.58,\"endTime\":\"09:17:46\",\"highPx\":50.58,\"lowPx\":50.52,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":2354.0,\"amt\":118986.72,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:18:00\",\"nbTrade\":14,\"beginPx\":50.56,\"beginTime\":\"09:18:03\",\"endPx\":50.59,\"endTime\":\"09:18:59\",\"highPx\":50.59,\"lowPx\":50.54,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":1473.0,\"amt\":74468.15,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:19:00\",\"nbTrade\":32,\"beginPx\":50.59,\"beginTime\":\"09:19:02\",\"endPx\":50.52,\"endTime\":\"09:19:49\",\"highPx\":50.6,\"lowPx\":50.48,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":8114.0,\"amt\":410160.16,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:20:00\",\"nbTrade\":92,\"beginPx\":50.51,\"beginTime\":\"09:20:01\",\"endPx\":50.48,\"endTime\":\"09:20:56\",\"highPx\":50.51,\"lowPx\":50.39,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":19715.0,\"amt\":994416.16,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:21:00\",\"nbTrade\":26,\"beginPx\":50.46,\"beginTime\":\"09:21:03\",\"endPx\":50.36,\"endTime\":\"09:21:58\",\"highPx\":50.47,\"lowPx\":50.36,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":2802.0,\"amt\":141276.53,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:22:00\",\"nbTrade\":16,\"beginPx\":50.38,\"beginTime\":\"09:22:08\",\"endPx\":50.39,\"endTime\":\"09:22:39\",\"highPx\":50.44,\"lowPx\":50.37,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowBidPx\":0.0,\"vol\":1448.0,\"amt\":72981.86,\"previousClosingPx\":50.0,\"previousClosingDt\":\"20260911\",\"previousSettlementPx\":50.154472,\"previousSettlementDt\":\"20260911\"},{\"time\":\"20260914-09:23:00\",\"nbTrade\":18,\"beginPx\":50.4,\"beginTime\":\"09:23:02\",\"endPx\":50.45,\"endTime\":\"09:23:39\",\"highPx\":50.45,\"lowPx\":50.39,\"beginAskPx\":0.0,\"endAskPx\":0.0,\"highAskPx\":0.0,\"lowAskPx\":0.0,\"beginBidPx\":0.0,\"endBidPx\":0.0,\"highBidPx\":0.0,\"lowB"
+      }
+    },
+    {
+      "request_id": "2636.13",
+      "resource_type": "Other",
+      "method": "GET",
+      "url": "https://grafici.borsaitaliana.it/favicon.ico",
+      "post_data": null,
+      "response": {
+        "status": 404,
+        "mime_type": "application/json",
+        "url": "https://grafici.borsaitaliana.it/favicon.ico"
+      },
+      "body": null
+    }
+  ],
+  "body_text_preview": "1D\n1M\n3M\n6M\n1Y\n3Y\n5Y\nPrezzo:"
+}
